@@ -1,0 +1,5 @@
+prompt:
+    # Disable kubie's custom prompt inside of a kubie shell. This is useful
+    # when you already have a prompt displaying kubernetes information.
+    # Default: false
+    disable: true

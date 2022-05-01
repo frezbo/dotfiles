@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "config:base",
+        "github>aquaproj/aqua-renovate-config#0.1.10",
+        "github>aquaproj/aqua-renovate-config:file#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:golang-go#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:kubernetes-sigs-kustomize#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:kubernetes-kubectl#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)"
+    ],
+    "prHourlyLimit": 0,
+    "prConcurrentLimit": 0,
+    "branchConcurrentLimit": 0,
+    "enabledManagers": [
+        "regex"
+    ]
+}

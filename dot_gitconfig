@@ -1,0 +1,20 @@
+[init]
+defaultBranch=main
+
+[user]
+name=Noel Georgi
+email=git@frezbo.dev
+signingkey=D3BE2D6FB575E5301D97EE42B0F957B892152E93
+
+[commit]
+gpgSign=true
+
+[tag]
+gpgSign=true
+
+[pull]
+rebase=true
+
+[core]
+editor=vim
+excludesfile=/home/frezbo/.gitignore
