@@ -1,0 +1,130 @@
+# shellcheck shell=bash
+
+# vte completion
+# https://gnunn1.github.io/tilix-web/manual/vteconfig/
+source /etc/profile.d/vte-2.91.sh
+
+# use starship prompt
+
+function set_win_title() {
+    echo -ne "\033]0; ${USER}@${HOSTNAME}:${PWD//${HOME}/\~} \007"
+}
+
+# aqua
+export AQUA_GLOBAL_CONFIG="/home/frezbo/.config/aquaproj-aqua/aqua.yaml"
+
+starship_precmd_user_func="set_win_title"
+eval "$(starship init bash)"
+
+# assh
+alias ssh="assh wrapper ssh --"
+
+# kubie aliases
+alias kx="kubie ctx"
+alias kn="kubie ns"
+
+alias kleen="sed -i /current-context/d ~/.kube/config"
+
+# fzf
+source /home/frezbo/.config/dotfiles/fzf/fzf.bash
+
+# set default EDITOR
+export EDITOR="vim"
+
+# don't use gnome keyring for ssh,
+# it doesn't prompt for ssh keys need PIN nad touch from hardware key
+export SSH_AUTH_SOCK="/run/user/1000/keyring/.ssh"
+
+# Golang
+export GOPATH="/home/frezbo/work/golang"
+
+# direnv
+eval "$(direnv hook bash)"
+
+# function to merge kubeconfig
+function kmerge() {
+    if [[ $# != 2 ]]; then
+        echo "### Usage: ${0} <path to kubeconfig> <context name>"
+        return 1
+    fi
+    k8s-ctx-import -name "${2}" \
+        -set-current-context=false \
+        < "${1}"
+}
+
+# aws-vault helpers
+function ave() {
+    aws-vault exec --duration 12h "${@}"
+}
+
+function avl() {
+  local LOGIN_URL
+  local ENCODED_URL
+  local PROFILE
+  if ! LOGIN_URL=$(aws-vault login --duration 12h --stdout "${@}"); then
+    echo "${LOGIN_URL}" && return
+  fi
+  ENCODED_URL="${LOGIN_URL//&/%26}"
+  # for profiles ending in "-ro", drop that
+  PROFILE="${!#//-ro/}"
+  URI_HANDLER="ext+container:name=${PROFILE}&url=${ENCODED_URL}"
+  firefox "${URI_HANDLER}"
+}
+
+function unmeta() {
+  exiftool -all= -overwrite_original "${1}"
+}
+
+function device-shutdown() {
+  if [[ $# != 1 ]]; then
+    echo "### Usage: ${0} <block device name>"
+    return 1
+  fi
+  udisksctl power-off -b "${1}"
+}
+
+function qq() {
+    clear
+
+    logpath="$TMPDIR/q"
+
+    if [[ -z "$TMPDIR" ]]; then
+        logpath="/tmp/q"
+    fi
+
+    if [[ ! -f "$logpath" ]]; then
+        echo 'Q LOG' > "$logpath"
+    fi
+
+    tail -100f -- "$logpath"
+}
+
+alias pbcopy='xclip -selection clipboard'
+alias pbcopyi="xclip -selection clipboard -t image/png -i"
+alias pbpaste='xclip -selection clipboard -o'
+alias p='pushd .'
+alias g='popd'
+alias d='dirs -v'
+alias gc='git clone'
+alias gs='git status'
+alias gd='git diff'
+alias gcm='git commit'
+alias grep="rg"
+alias ls="exa"
+alias cat="bat"
+
+# kubectl bash completion
+source <(kubectl completion bash)
+
+# talosctl bash completion
+source <(talosctl completion bash)
+
+# helm bash completion
+source <(helm completion bash)
+
+# GitHub cli bash completion
+eval "$(gh completion -s bash)"
+
+# setup environment variables
+# enable Helm v3 OCI registry support
+export HELM_EXPERIMENTAL_OCI=1
