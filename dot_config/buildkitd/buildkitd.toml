@@ -1,0 +1,26 @@
+insecure-entitlements = [ "network.host", "security.insecure" ]
+
+[registry."docker.io"]
+  mirrors = ["127.0.0.1:5000"]
+  http = true
+  insecure = true
+[registry."k8s.gcr.io"]
+  mirrors = ["127.0.0.1:5001"]
+  http = true
+  insecure = true
+[registry."quay.io"]
+  mirrors = ["127.0.0.1:5002"]
+  http = true
+  insecure = true
+[registry."gcr.io"]
+  mirrors = ["127.0.0.1:5003"]
+  http = true
+  insecure = true
+[registry."ghcr.io"]
+  mirrors = ["127.0.0.1:5004"]
+  http = true
+  insecure = true
+[registry."127.0.0.1"]
+  mirrors = ["127.0.0.1:5010"]
+  http = true
+  insecure = true
