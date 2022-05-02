@@ -54,6 +54,8 @@ packages:
   - name: golang/go@1.18.1
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.15.2
+  - name: kubernetes/kubectl@v1.23.5
+  - name: helm/helm@v3.8.2
   - name: moul/assh@v2.12.2
     registry: remote
   - name: pete911/certinfo@v1.0.6
