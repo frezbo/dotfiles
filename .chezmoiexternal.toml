@@ -14,3 +14,7 @@
   type = "file"
   url = "https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/fish/docker.fish"
   refreshPeriod = "24h"
+[".vim/bundle/Vundle.vim"]
+  type = "git-repo"
+  url = "https://github.com/VundleVim/Vundle.vim.git"
+  refreshPeriod = "24h"
