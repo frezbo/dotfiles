@@ -25,7 +25,7 @@ packages:
   - name: sachaos/viddy@v0.3.4
   - name: ahmetb/kubectl-tree@v0.4.1
   - name: pulumi/kubespy@v0.6.0
-  - name: pulumi/pulumi@v3.31.0
+  - name: pulumi/pulumi@v3.31.1
   - name: cli/cli@v2.9.0
   - name: sbstp/kubie@v0.16.0
   - name: stedolan/jq@jq-1.6
@@ -54,7 +54,7 @@ packages:
   - name: golang/go@1.18.1
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.15.2
-  - name: kubernetes/kubectl@v1.23.6
+  - name: kubernetes/kubectl@v1.24.0
   - name: helm/helm@v3.8.2
   - name: moul/assh@v2.12.2
     registry: remote
