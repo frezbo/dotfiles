@@ -53,7 +53,7 @@ packages:
   - name: sigstore/rekor@v0.6.0
   - name: golang/go@1.18.1
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.15.3
+  - name: twpayne/chezmoi@v2.15.4
   - name: kubernetes/kubectl@v1.24.0
   - name: helm/helm@v3.8.2
   - name: moul/assh@v2.12.2
@@ -81,5 +81,5 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v8.3.1
     registry: remote
-  - name: wakatime/wakatime-cli@v1.44.0
+  - name: wakatime/wakatime-cli@v1.45.1
     registry: remote
