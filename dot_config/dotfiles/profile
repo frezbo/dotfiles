@@ -7,4 +7,8 @@ PATH="${PATH}:/home/frezbo/.local/bin/node/bin"
 # aqua-proj
 PATH="/home/frezbo/.local/share/aquaproj-aqua/bin:${PATH}"
 
+# TODO: remove once https://github.com/aquaproj/aqua/issues/710 is addressed
+# use aqua installed go directly without aqua-proxy
+PATH="/home/frezbo/.local/share/aquaproj-aqua/pkgs/http/golang.org/dl/go1.18.1.linux-amd64.tar.gz/go/bin:${PATH}"
+
 export PATH
