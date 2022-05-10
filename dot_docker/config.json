@@ -1,6 +1,0 @@
-{
-	"auths": {
-		"ghcr.io": {}
-	},
-	"credsStore": "secretservice"
-}
