@@ -6,6 +6,7 @@ end
 
 # aqua
 set -x AQUA_GLOBAL_CONFIG "/home/frezbo/.config/aquaproj-aqua/aqua.yaml"
+set -x AQUA_EXPERIMENTAL_X_SYS_EXEC "true"
 
 set starship_precmd_user_func "set_win_title"
 starship init fish | source
