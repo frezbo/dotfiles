@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v2.14.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v2.14.1 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -60,7 +60,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.6
     registry: remote
-  - name: cilium/cilium-cli@v0.11.5
+  - name: cilium/cilium-cli@v0.11.6
     registry: remote
   - name: docker/docker-credential-helpers@v0.6.4
     registry: remote
