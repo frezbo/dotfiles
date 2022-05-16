@@ -5,7 +5,8 @@
         "github>aquaproj/aqua-renovate-config:file#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
         "github>aquaproj/aqua-renovate-config:golang-go#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
         "github>aquaproj/aqua-renovate-config:kubernetes-sigs-kustomize#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
-        "github>aquaproj/aqua-renovate-config:kubernetes-kubectl#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)"
+        "github>aquaproj/aqua-renovate-config:kubernetes-kubectl#0.1.10(dot_config/aquaproj-aqua/aqua\\.yaml)",
+	"github>frezbo/dotfiles:nodejs-renovate"
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,

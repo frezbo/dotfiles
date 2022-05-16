@@ -83,3 +83,17 @@ packages:
     files:
       - name: wakatime
         src: "wakatime-cli-{{ .OS }}-{{ .Arch}}"
+  - name: nodejs/node
+    type: http
+    url: "https://nodejs.org/download/release/{{ .Version }}/node-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
+    replacements:
+      amd64: x64
+    files:
+      - name: node
+        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/bin/node"
+      - name: corepack
+        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/corepack/dist/corepack.js"
+      - name: npm
+        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npm-cli.js"
+      - name: npx
+        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"

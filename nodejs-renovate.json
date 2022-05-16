@@ -1,0 +1,14 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": ["{{arg0}}"],
+      "matchStrings": [
+        " +['\"]?version['\"]? *: +['\"]?(?<currentValue>[^'\" \\n]+)['\"]? +# renovate: depName=nodejs/node[ \\n]",
+        " +['\"]?name['\"]? *: +['\"]?nodejs/node@(?<currentValue>[^'\" \\n]+)['\"]?"
+      ],
+      "extractVersionTemplate": "^(?<version>.*)$",
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "nodejs/node"
+    }
+  ]
+}

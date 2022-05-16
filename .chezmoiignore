@@ -2,3 +2,4 @@ README.md
 LICENSE
 registry.yaml
 renovate.json
+nodejs-renovate.json
