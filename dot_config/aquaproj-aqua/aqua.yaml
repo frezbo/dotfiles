@@ -85,4 +85,4 @@ packages:
     registry: remote
   - name: nodejs/node
     registry: remote
-    version: v18.0.0 # renovate: depName=nodejs/node
+    version: v18.1.0 # renovate: depName=nodejs/node
