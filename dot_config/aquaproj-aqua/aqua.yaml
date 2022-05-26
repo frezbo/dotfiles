@@ -68,7 +68,7 @@ packages:
     registry: remote
   - name: pulumi/crd2pulumi@v1.2.0
     registry: remote
-  - name: dundee/gdu@v5.13.2
+  - name: dundee/gdu@v5.14.0
     registry: remote
   - name: davecheney/httpstat
     version: v1.0.0-rc.1
