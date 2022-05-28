@@ -79,7 +79,7 @@ packages:
     registry: remote
   - name: pulumi/pulumictl@v0.0.31
     registry: remote
-  - name: r-darwish/topgrade@v9.0.0
+  - name: r-darwish/topgrade@v9.0.1
     registry: remote
   - name: wakatime/wakatime-cli@v1.45.3
     registry: remote
