@@ -56,7 +56,7 @@ packages:
   - name: twpayne/chezmoi@v2.17.0
   - name: kubernetes/kubectl@v1.24.1
   - name: helm/helm@v3.9.0
-  - name: moul/assh@v2.12.2
+  - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.6
     registry: remote
