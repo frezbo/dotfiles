@@ -2,7 +2,7 @@
 #assume_yes = true
 
 # Disable specific steps - same options as the command line flag
-disable = ["pnpm", "gcloud"]
+disable = ["gcloud"]
 
 # Ignore failures for these steps
 # ignore failure updating local development images
