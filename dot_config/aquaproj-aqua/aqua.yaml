@@ -42,7 +42,7 @@ packages:
   - name: FairwindsOps/rbac-lookup@v0.8.3
   - name: anchore/syft@v0.46.3
   - name: koalaman/shellcheck@v0.8.0
-  - name: mikefarah/yq@v4.25.1
+  - name: mikefarah/yq@v4.25.2
   - name: ogham/exa@v0.10.1
   - name: mozilla/sops@v3.7.3
   - name: stern/stern@v1.21.0
@@ -56,7 +56,7 @@ packages:
   - name: twpayne/chezmoi@v2.17.0
   - name: kubernetes/kubectl@v1.24.1
   - name: helm/helm@v3.9.0
-  - name: moul/assh@v2.12.2
+  - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.6
     registry: remote
@@ -79,7 +79,7 @@ packages:
     registry: remote
   - name: pulumi/pulumictl@v0.0.31
     registry: remote
-  - name: r-darwish/topgrade@v9.0.0
+  - name: r-darwish/topgrade@v9.0.1
     registry: remote
   - name: wakatime/wakatime-cli@v1.45.3
     registry: remote
