@@ -1,11 +1,11 @@
 {
     "extends": [
         "config:base",
-        "github>aquaproj/aqua-renovate-config#1.0.0",
-        "github>aquaproj/aqua-renovate-config:file#1.0.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
-        "github>aquaproj/aqua-renovate-config:golang-go#1.0.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
-        "github>aquaproj/aqua-renovate-config:kubernetes-sigs-kustomize#1.0.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
-        "github>aquaproj/aqua-renovate-config:kubernetes-kubectl#1.0.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config#1.1.0",
+        "github>aquaproj/aqua-renovate-config:file#1.1.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:golang-go#1.1.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:kubernetes-sigs-kustomize#1.1.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
+        "github>aquaproj/aqua-renovate-config:kubernetes-kubectl#1.1.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
 	"github>frezbo/dotfiles:nodejs-renovate"
     ],
     "prHourlyLimit": 0,
