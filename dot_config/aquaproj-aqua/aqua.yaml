@@ -83,5 +83,5 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.47.0
     registry: remote
-  - name: nodejs/node@v18.2.0
+  - name: nodejs/node@v18.3.0
     registry: remote
