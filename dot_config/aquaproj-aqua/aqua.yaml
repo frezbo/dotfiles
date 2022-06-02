@@ -35,7 +35,7 @@ packages:
   - name: junegunn/fzf@0.30.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: corneliusweig/rakkess@v0.5.0
-  - name: gohugoio/hugo@v0.100.0
+  - name: gohugoio/hugo@v0.100.1
   - name: aquasecurity/trivy@v0.28.1
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
@@ -51,7 +51,7 @@ packages:
   - name: starship/starship@v1.7.1
   - name: Versent/saml2aws@v2.35.0
   - name: sigstore/rekor@v0.7.0
-  - name: golang/go@1.18.2
+  - name: golang/go@1.18.3
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.17.1
   - name: kubernetes/kubectl@v1.24.1
@@ -83,5 +83,5 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.47.0
     registry: remote
-  - name: nodejs/node@v18.2.0
+  - name: nodejs/node@v18.3.0
     registry: remote
