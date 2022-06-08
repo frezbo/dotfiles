@@ -25,8 +25,8 @@ packages:
   - name: sachaos/viddy@v0.3.4
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
-  - name: pulumi/pulumi@v3.33.2
-  - name: cli/cli@v2.11.3
+  - name: pulumi/pulumi@v3.34.0
+  - name: cli/cli@v2.12.0
   - name: sbstp/kubie@v0.17.0
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.31
@@ -35,7 +35,7 @@ packages:
   - name: junegunn/fzf@0.30.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: corneliusweig/rakkess@v0.5.0
-  - name: gohugoio/hugo@v0.100.1
+  - name: gohugoio/hugo@v0.100.2
   - name: aquasecurity/trivy@v0.28.1
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
