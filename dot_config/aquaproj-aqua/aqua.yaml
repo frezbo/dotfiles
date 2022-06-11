@@ -25,7 +25,7 @@ packages:
   - name: sachaos/viddy@v0.3.4
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
-  - name: pulumi/pulumi@v3.34.0
+  - name: pulumi/pulumi@v3.34.1
   - name: cli/cli@v2.12.1
   - name: sbstp/kubie@v0.17.0
   - name: stedolan/jq@jq-1.6
@@ -40,7 +40,7 @@ packages:
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
   - name: FairwindsOps/rbac-lookup@v0.8.3
-  - name: anchore/syft@v0.46.3
+  - name: anchore/syft@v0.47.0
   - name: koalaman/shellcheck@v0.8.0
   - name: mikefarah/yq@v4.25.2
   - name: ogham/exa@v0.10.1
