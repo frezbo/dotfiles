@@ -48,7 +48,7 @@ packages:
   - name: stern/stern@v1.21.0
   - name: vmware-tanzu/velero@v1.8.1
   - name: FiloSottile/mkcert@v1.4.4
-  - name: starship/starship@v1.7.1
+  - name: starship/starship@v1.8.0
   - name: Versent/saml2aws@v2.35.0
   - name: sigstore/rekor@v0.8.0
   - name: golang/go@1.18.3
@@ -60,7 +60,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
-  - name: cilium/cilium-cli@v0.11.8
+  - name: cilium/cilium-cli@v0.11.9
     registry: remote
   - name: docker/docker-credential-helpers@v0.6.4
     registry: remote
@@ -83,5 +83,5 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.49.0
     registry: remote
-  - name: nodejs/node@v18.3.0
+  - name: nodejs/node@v18.4.0
     registry: remote
