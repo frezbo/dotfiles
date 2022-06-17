@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v2.26.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v2.27.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -40,7 +40,7 @@ packages:
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
   - name: FairwindsOps/rbac-lookup@v0.8.3
-  - name: anchore/syft@v0.47.0
+  - name: anchore/syft@v0.48.1
   - name: koalaman/shellcheck@v0.8.0
   - name: mikefarah/yq@v4.25.2
   - name: ogham/exa@v0.10.1
@@ -54,7 +54,7 @@ packages:
   - name: golang/go@1.18.3
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.17.1
-  - name: kubernetes/kubectl@v1.24.1
+  - name: kubernetes/kubectl@v1.24.2
   - name: helm/helm@v3.9.0
   - name: moul/assh@v2.14.0
     registry: remote
