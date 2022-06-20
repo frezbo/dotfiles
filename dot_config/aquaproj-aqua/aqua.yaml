@@ -53,7 +53,7 @@ packages:
   - name: sigstore/rekor@v0.8.1
   - name: golang/go@1.18.3
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.17.1
+  - name: twpayne/chezmoi@v2.18.0
   - name: kubernetes/kubectl@v1.24.2
   - name: helm/helm@v3.9.0
   - name: moul/assh@v2.14.0
