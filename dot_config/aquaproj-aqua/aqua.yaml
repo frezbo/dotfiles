@@ -14,7 +14,7 @@ registries:
 packages:
   - name: sharkdp/bat@v0.21.0
   - name: ogham/dog@v0.1.0
-  - name: direnv/direnv@v2.32.0
+  - name: direnv/direnv@v2.32.1
   - name: sigstore/cosign@v1.9.0
   - name: nektos/act@v0.2.27
   - name: 99designs/aws-vault@v6.6.0
