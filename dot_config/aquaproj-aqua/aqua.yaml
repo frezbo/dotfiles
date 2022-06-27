@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.2.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.4.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -22,7 +22,7 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.10.0
   - name: kubernetes-sigs/cluster-api@v1.1.4
-  - name: sachaos/viddy@v0.3.5
+  - name: sachaos/viddy@v0.3.6
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
   - name: pulumi/pulumi@v3.35.1
