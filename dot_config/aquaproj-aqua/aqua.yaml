@@ -77,7 +77,7 @@ packages:
     registry: remote
   - name: itaysk/kubectl-neat@v2.0.3
     registry: remote
-  - name: pulumi/pulumictl@v0.0.31
+  - name: pulumi/pulumictl@v0.0.32
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
