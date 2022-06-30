@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.4.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.5.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -29,7 +29,7 @@ packages:
   - name: cli/cli@v2.13.0
   - name: sbstp/kubie@v0.17.0
   - name: stedolan/jq@jq-1.6
-  - name: kastenhq/kubestr@v0.4.31
+  - name: kastenhq/kubestr@v0.4.33
   - name: go-task/task@v3.13.0
   - name: siderolabs/talos@v1.1.0
   - name: junegunn/fzf@0.30.0
@@ -50,7 +50,7 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.9.1
   - name: Versent/saml2aws@v2.35.0
-  - name: sigstore/rekor@v0.8.2
+  - name: sigstore/rekor@v0.9.0
   - name: golang/go@1.18.3
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.18.1
