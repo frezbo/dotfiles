@@ -10,6 +10,7 @@ export AQUA_LOG_COLOR="always"
 export AQUA_PROGRESS_BAR="true"
 
 # nodejs
-PATH="/home/frezbo/.local/share/aquaproj-aqua/pkgs/http/nodejs.org/download/release/$(node --version)/node-$(node --version)-linux-x64.tar.gz/node-v18.4.0-linux-x64/bin:${PATH}"
+NODE_VERSION=$(node --version)
+PATH="${PATH}:/home/frezbo/.local/share/aquaproj-aqua/pkgs/http/nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-linux-x64.tar.gz/node-${NODE_VERSION}-linux-x64/bin"
 
 export PATH
