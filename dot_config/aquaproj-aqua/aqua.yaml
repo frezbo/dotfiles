@@ -39,8 +39,8 @@ packages:
   - name: aquasecurity/trivy@v0.29.2
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
-  - name: FairwindsOps/rbac-lookup@v0.8.4
-  - name: anchore/syft@v0.49.0
+  - name: FairwindsOps/rbac-lookup@v0.9.0
+  - name: anchore/syft@v0.50.0
   - name: koalaman/shellcheck@v0.8.0
   - name: mikefarah/yq@v4.25.3
   - name: ogham/exa@v0.10.1
@@ -60,7 +60,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
-  - name: cilium/cilium-cli@v0.11.10
+  - name: cilium/cilium-cli@v0.11.11
     registry: remote
   - name: docker/docker-credential-helpers@v0.6.4
     registry: remote
