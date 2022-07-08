@@ -50,7 +50,7 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.9.1
   - name: Versent/saml2aws@v2.35.0
-  - name: sigstore/rekor@v0.9.0
+  - name: sigstore/rekor@v0.9.1
   - name: golang/go@1.18.3
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.18.1
