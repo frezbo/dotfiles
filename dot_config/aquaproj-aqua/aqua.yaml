@@ -55,7 +55,7 @@ packages:
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.18.1
   - name: kubernetes/kubectl@v1.24.2
-  - name: helm/helm@v3.9.0
+  - name: helm/helm@v3.9.1
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
