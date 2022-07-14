@@ -25,11 +25,11 @@ packages:
   - name: sachaos/viddy@v0.3.6
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
-  - name: pulumi/pulumi@v3.35.3
+  - name: pulumi/pulumi@v3.36.0
   - name: cli/cli@v2.14.1
   - name: sbstp/kubie@v0.17.0
   - name: stedolan/jq@jq-1.6
-  - name: kastenhq/kubestr@v0.4.33
+  - name: kastenhq/kubestr@v0.4.34
   - name: go-task/task@v3.14.0
   - name: siderolabs/talos@v1.1.1
   - name: junegunn/fzf@0.30.0
@@ -54,8 +54,8 @@ packages:
   - name: golang/go@1.18.4
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.18.1
-  - name: kubernetes/kubectl@v1.24.2
-  - name: helm/helm@v3.9.0
+  - name: kubernetes/kubectl@v1.24.3
+  - name: helm/helm@v3.9.1
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
@@ -83,5 +83,5 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.53.2
     registry: remote
-  - name: nodejs/node@v18.5.0
+  - name: nodejs/node@v18.6.0
     registry: remote
