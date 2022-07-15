@@ -57,6 +57,7 @@ packages:
   - name: kubernetes/kubectl@v1.24.3
   - name: helm/helm@v3.9.1
   - name: aws/aws-cli@2.7.16
+  - name: dundee/gdu@v5.14.0
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
@@ -68,8 +69,6 @@ packages:
   - name: brompwnie/botb@1.8.0
     registry: remote
   - name: pulumi/crd2pulumi@v1.2.0
-    registry: remote
-  - name: dundee/gdu@v5.14.0
     registry: remote
   - name: davecheney/httpstat
     version: v1.0.0-rc.1

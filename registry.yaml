@@ -35,14 +35,6 @@ packages:
     asset: "crd2pulumi-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
     description: Generate typed CustomResources from a Kubernetes CustomResourceDefinition
   - type: github_release
-    repo_owner: dundee
-    repo_name: gdu
-    asset: "gdu_{{ .OS }}_{{ .Arch }}.tgz"
-    description: Fast disk usage analyzer with console interface written in Go
-    files:
-      - name: gdu
-        src: "gdu_{{ .OS }}_{{ .Arch}}"
-  - type: github_release
     repo_owner: davecheney
     repo_name: httpstat
     asset: "httpstat-{{ .OS }}-{{ .Arch }}-{{ .Version }}"
