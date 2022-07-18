@@ -89,3 +89,16 @@ packages:
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npm-cli.js"
       - name: npx
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"
+  - name: gcloud/gcloud
+    type: http
+    description: CLI for interacting with Google Cloud products and services.
+    search_words:
+      - Linux Only
+    url: "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-{{ .Version }}-linux-x86_64.tar.gz"
+    files:
+      - name: gcloud
+        src: google-cloud-sdk/bin/gcloud
+      - name: gsutil
+        src: google-cloud-sdk/bin/gsutil
+    supported_envs:
+      - linux

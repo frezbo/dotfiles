@@ -85,3 +85,7 @@ packages:
     registry: remote
   - name: nodejs/node@v18.6.0
     registry: remote
+  - name: gcloud/gcloud
+    # TODO: find a way to retrieve from https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json
+    version: 393.0.0
+    registry: remote
