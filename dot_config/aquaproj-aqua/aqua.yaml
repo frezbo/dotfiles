@@ -68,7 +68,7 @@ packages:
     registry: remote
   - name: brompwnie/botb@1.8.0
     registry: remote
-  - name: pulumi/crd2pulumi@v1.2.1
+  - name: pulumi/crd2pulumi@v1.2.2
     registry: remote
   - name: davecheney/httpstat
     version: v1.0.0-rc.1
