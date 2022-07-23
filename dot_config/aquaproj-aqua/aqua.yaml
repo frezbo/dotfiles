@@ -27,7 +27,7 @@ packages:
   - name: pulumi/kubespy@v0.6.0
   - name: pulumi/pulumi@v3.36.0
   - name: cli/cli@v2.14.2
-  - name: sbstp/kubie@v0.17.0
+  - name: sbstp/kubie@v0.17.1
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.34
   - name: go-task/task@v3.14.0
@@ -88,4 +88,6 @@ packages:
   - name: gcloud/gcloud
     # TODO: find a way to retrieve from https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json
     version: 393.0.0
+    registry: remote
+  - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote

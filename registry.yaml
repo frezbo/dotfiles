@@ -102,3 +102,10 @@ packages:
         src: google-cloud-sdk/bin/gsutil
     supported_envs:
       - linux
+  - type: go_install
+    name: github.com/siderolabs/deep-copy
+    path: github.com/siderolabs/deep-copy
+    repo_owner: siderolabs
+    repo_name: deep-copy
+    description: Deep copy generator
+    version_source: github_tag
