@@ -91,7 +91,10 @@ packages:
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"
   - name: gcloud/gcloud
     type: http
+    repo_owner: twistedpair
+    repo_name: google-cloud-sdk
     description: CLI for interacting with Google Cloud products and services.
+    version_source: github_tag
     search_words:
       - Linux Only
     url: "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-{{ .Version }}-linux-x86_64.tar.gz"

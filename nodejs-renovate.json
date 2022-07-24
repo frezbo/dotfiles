@@ -1,7 +1,9 @@
 {
   "regexManagers": [
     {
-      "fileMatch": ["{{arg0}}"],
+      "fileMatch": [
+        "{{arg0}}"
+      ],
       "matchStrings": [
         " +['\"]?version['\"]? *: +['\"]?(?<currentValue>[^'\" \\n]+)['\"]? +# renovate: depName=nodejs/node[ \\n]",
         " +['\"]?name['\"]? *: +['\"]?nodejs/node@(?<currentValue>[^'\" \\n]+)['\"]?"

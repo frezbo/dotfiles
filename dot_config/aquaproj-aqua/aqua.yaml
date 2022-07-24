@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.16.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.18.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -85,9 +85,7 @@ packages:
     registry: remote
   - name: nodejs/node@v18.6.0
     registry: remote
-  - name: gcloud/gcloud
-    # TODO: find a way to retrieve from https://dl.google.com/dl/cloudsdk/channels/rapid/components-2.json
-    version: 393.0.0
+  - name: gcloud/gcloud@393.0.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote

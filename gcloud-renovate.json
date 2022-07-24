@@ -1,0 +1,16 @@
+{
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "{{arg0}}"
+            ],
+            "matchStrings": [
+                " +['\"]?version['\"]? *: +['\"]?(?<currentValue>[^'\" \\n]+)['\"]? +# renovate: depName=gcloud/gcloud[ \\n]",
+                " +['\"]?name['\"]? *: +['\"]?gcloud/gcloud@(?<currentValue>[^'\" \\n]+)['\"]?"
+            ],
+            "extractVersionTemplate": "^(?<version>.*)$",
+            "datasourceTemplate": "github-tags",
+            "depNameTemplate": "twistedpair/google-cloud-sdk"
+        }
+    ]
+}
