@@ -83,7 +83,7 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.53.3
     registry: remote
-  - name: nodejs/node@v18.6.0
+  - name: nodejs/node@v18.7.0
     registry: remote
   - name: gcloud/gcloud@395.0.0
     registry: remote
