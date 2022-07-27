@@ -31,12 +31,12 @@ packages:
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.34
   - name: go-task/task@v3.14.0
-  - name: siderolabs/talos@v1.1.1
+  - name: siderolabs/talos@v1.1.2
   - name: junegunn/fzf@0.31.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: corneliusweig/rakkess@v0.5.0
   - name: gohugoio/hugo@v0.101.0
-  - name: aquasecurity/trivy@v0.30.3
+  - name: aquasecurity/trivy@v0.30.4
   - name: fullstorydev/grpcurl@v1.8.6
   - name: int128/kubelogin@v1.25.1
   - name: FairwindsOps/rbac-lookup@v0.9.0
@@ -83,7 +83,7 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.53.3
     registry: remote
-  - name: nodejs/node@v18.6.0
+  - name: nodejs/node@v18.7.0
     registry: remote
   - name: gcloud/gcloud@395.0.0
     registry: remote
