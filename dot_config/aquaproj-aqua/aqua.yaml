@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.18.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.19.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -25,9 +25,9 @@ packages:
   - name: sachaos/viddy@v0.3.6
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
-  - name: pulumi/pulumi@v3.36.0
+  - name: pulumi/pulumi@v3.37.1
   - name: cli/cli@v2.14.3
-  - name: sbstp/kubie@v0.17.1
+  - name: sbstp/kubie@v0.17.2
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.34
   - name: go-task/task@v3.14.0
