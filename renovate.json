@@ -2,7 +2,6 @@
     "extends": [
         "config:base",
         "github>aquaproj/aqua-renovate-config#1.2.0",
-        "github>aquaproj/aqua-renovate-config:file#1.2.0(dot_config/aquaproj-aqua/aqua\\.yaml)",
         "github>frezbo/dotfiles:gcloud-renovate(dot_config/aquaproj-aqua/aqua\\.yaml)"
     ],
     "prHourlyLimit": 0,
