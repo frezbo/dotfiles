@@ -4,13 +4,7 @@ PATH="${PATH}:/home/frezbo/work/golang/bin"
 # aqua-proj
 PATH="/home/frezbo/.local/share/aquaproj-aqua/bin:${PATH}"
 
-export AQUA_GLOBAL_CONFIG="/home/frezbo/.config/aquaproj-aqua/aqua.yaml"
-export AQUA_EXPERIMENTAL_X_SYS_EXEC="true"
-export AQUA_LOG_COLOR="always"
-export AQUA_PROGRESS_BAR="true"
-
-# nodejs
-NODE_VERSION=$(node --version)
-PATH="${PATH}:/home/frezbo/.local/share/aquaproj-aqua/pkgs/http/nodejs.org/download/release/${NODE_VERSION}/node-${NODE_VERSION}-linux-x64.tar.gz/node-${NODE_VERSION}-linux-x64/bin"
+# node
+PATH="/home/frezbo/.local/bin/node/bin:${PATH}"
 
 export PATH

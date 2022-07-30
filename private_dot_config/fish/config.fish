@@ -4,6 +4,12 @@ function set_win_title
     echo -ne "\033]0; $USER@$HOSTNAME:$PWD//$HOME/\~} \007"
 end
 
+# aqua
+export AQUA_GLOBAL_CONFIG="/home/frezbo/.config/aquaproj-aqua/aqua.yaml"
+export AQUA_EXPERIMENTAL_X_SYS_EXEC="true"
+export AQUA_LOG_COLOR="always"
+export AQUA_PROGRESS_BAR="true"
+
 set starship_precmd_user_func "set_win_title"
 starship init fish | source
 
@@ -69,7 +75,7 @@ function device-shutdown
     case '*'
       echo "### Usage: device-shutdown <device name>"
       return 1
-  end  
+  end
 end
 
 function qq
