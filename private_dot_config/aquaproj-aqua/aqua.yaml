@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.19.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.20.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -16,7 +16,7 @@ packages:
   - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.1
   - name: sigstore/cosign@v1.10.0
-  - name: nektos/act@v0.2.29
+  - name: nektos/act@v0.2.30
   - name: 99designs/aws-vault@v6.6.0
   - name: harness/drone-cli@v1.5.0
   - name: wagoodman/dive@v0.10.0
