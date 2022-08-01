@@ -42,7 +42,7 @@ packages:
   - name: FairwindsOps/rbac-lookup@v0.9.0
   - name: anchore/syft@v0.52.0
   - name: koalaman/shellcheck@v0.8.0
-  - name: mikefarah/yq@v4.26.1
+  - name: mikefarah/yq@v4.27.2
   - name: ogham/exa@v0.10.1
   - name: mozilla/sops@v3.7.3
   - name: stern/stern@v1.21.0
@@ -51,7 +51,7 @@ packages:
   - name: starship/starship@v1.9.1
   - name: Versent/saml2aws@v2.36.0
   - name: sigstore/rekor@v0.10.0
-  - name: golang/go@1.18.4
+  - name: golang/go@1.18.5
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.20.0
   - name: kubernetes/kubectl@v1.24.3
@@ -59,7 +59,7 @@ packages:
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.14.0
   - name: golang.org/x/tools/cmd/goimports@v0.1.11
-  - name: golangci/golangci-lint@v1.47.2
+  - name: golangci/golangci-lint@v1.47.3
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
