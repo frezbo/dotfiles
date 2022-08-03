@@ -51,7 +51,7 @@ packages:
   - name: starship/starship@v1.9.1
   - name: Versent/saml2aws@v2.36.0
   - name: sigstore/rekor@v0.10.0
-  - name: golang/go@go1.18.5
+  - name: golang/go@go1.19
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.20.0
   - name: kubernetes/kubectl@v1.24.3
