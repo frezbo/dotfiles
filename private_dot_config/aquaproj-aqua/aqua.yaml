@@ -15,7 +15,7 @@ packages:
   - name: sharkdp/bat@v0.21.0
   - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.1
-  - name: sigstore/cosign@v1.10.0
+  - name: sigstore/cosign@v1.10.1
   - name: nektos/act@v0.2.30
   - name: 99designs/aws-vault@v6.6.0
   - name: harness/drone-cli@v1.5.0
@@ -59,7 +59,7 @@ packages:
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.15.0
   - name: golang.org/x/tools/cmd/goimports@v0.1.11
-  - name: golangci/golangci-lint@v1.47.3
+  - name: golangci/golangci-lint@v1.48.0
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
