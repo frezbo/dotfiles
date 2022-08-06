@@ -5,8 +5,8 @@
                 "{{arg0}}"
             ],
             "matchStrings": [
-                " +['\"]?version['\"]? *: +['\"]?(?<currentValue>[^'\" \\n]+)['\"]? +# renovate: depName=gcloud/gcloud[ \\n]",
-                " +['\"]?name['\"]? *: +['\"]?gcloud/gcloud@(?<currentValue>[^'\" \\n]+)['\"]?"
+                " +['\"]?version['\"]? *: +['\"]?(?<currentValue>[^'\" \\n]+)['\"]? +# renovate: depName=gcp/cli/gcloud[ \\n]",
+                " +['\"]?name['\"]? *: +['\"]?gcp/cli/gcloud@(?<currentValue>[^'\" \\n]+)['\"]?"
             ],
             "extractVersionTemplate": "^(?<version>.*)$",
             "datasourceTemplate": "github-tags",

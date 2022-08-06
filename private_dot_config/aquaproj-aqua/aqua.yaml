@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.21.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.22.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -87,7 +87,7 @@ packages:
     registry: remote
   - name: nodejs/node@v18.7.0
     registry: remote
-  - name: gcloud/gcloud@396.0.0
+  - name: gcp/cli/gcloud@396.0.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote

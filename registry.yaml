@@ -89,7 +89,7 @@ packages:
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npm-cli.js"
       - name: npx
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"
-  - name: gcloud/gcloud
+  - name: gcp/cli/gcloud
     type: http
     repo_owner: twistedpair
     repo_name: google-cloud-sdk
