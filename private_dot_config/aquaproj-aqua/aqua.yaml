@@ -55,7 +55,7 @@ packages:
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.20.0
   - name: kubernetes/kubectl@v1.24.3
-  - name: helm/helm@v3.9.2
+  - name: helm/helm@v3.9.3
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.15.0
   - name: golang.org/x/tools/cmd/goimports@v0.1.11
