@@ -62,7 +62,7 @@ packages:
   - name: golangci/golangci-lint@v1.48.0
   - name: hashicorp/terraform@v1.2.7
   - name: golang/tools/goimports
-    version: v0.1.11 # renovate: depName=golang.org/x/tools
+    version: v0.1.12 # renovate: depName=golang.org/x/tools
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
