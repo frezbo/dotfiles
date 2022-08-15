@@ -3,7 +3,7 @@
 # https://aquaproj.github.io/
 registries:
 - type: standard
-  ref: v3.26.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.28.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -48,7 +48,7 @@ packages:
   - name: stern/stern@v1.21.0
   - name: vmware-tanzu/velero@v1.9.0
   - name: FiloSottile/mkcert@v1.4.4
-  - name: starship/starship@v1.9.1
+  - name: starship/starship@v1.10.0
   - name: Versent/saml2aws@v2.36.0
   - name: sigstore/rekor@v0.10.0
   - name: golang/go@go1.19
