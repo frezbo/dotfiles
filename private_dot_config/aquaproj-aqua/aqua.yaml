@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.30.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.31.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -48,7 +48,7 @@ packages:
   - name: ogham/exa@v0.10.1
   - name: mozilla/sops@v3.7.3
   - name: stern/stern@v1.21.0
-  - name: vmware-tanzu/velero@v1.9.0
+  - name: vmware-tanzu/velero@v1.9.1
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.10.1
   - name: Versent/saml2aws@v2.36.0
