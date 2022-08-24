@@ -1,0 +1,14 @@
+{
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "\\.?aqua\\.ya?ml"
+            ],
+            "matchStrings": [
+                " +['\"]?name['\"]? *: +['\"]?gcloud-cli@(?<currentValue>[^'\" \\n]+)['\"]?"
+            ],
+            "datasourceTemplate": "github-tags",
+            "depNameTemplate": "twistedpair/google-cloud-sdk"
+        }
+    ]
+}
