@@ -10,25 +10,10 @@
                 "\\.?aqua\\.ya?ml"
             ],
             "matchStrings": [
-                " +['\"]?name['\"]? *: +['\"]?gcloud-cli@(?<currentValue>[^'\" \\n]+)['\"]?"
+                " +['\"]?name['\"]? *: +['\"]?(?<packageName>gcloud-cli)@(?<currentValue>[^'\" \\n]+)['\"]?"
             ],
             "datasourceTemplate": "github-tags",
-            "depNameTemplate": "twistedpair/google-cloud-sdk",
-            "versioningTemplate": "loose"
-        }
-    ],
-    "packageRules": [
-        {
-            "matchPackageNames": [
-                "twistedpair/google-cloud-sdk"
-            ],
-            "matchFiles": [
-                "aqua.yaml"
-            ],
-            "matchDatasources": [
-                "github-tags"
-            ],
-            "enabled": true
+            "depNameTemplate": "twistedpair/google-cloud-sdk"
         }
     ],
     "prHourlyLimit": 0,
