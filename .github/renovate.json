@@ -16,6 +16,20 @@
             "depNameTemplate": "twistedpair/google-cloud-sdk"
         }
     ],
+    "packageRules": [
+        {
+            "matchPackageNames": [
+                "twistedpair/google-cloud-sdk"
+            ],
+            "matchFiles": [
+                "aqua.yaml"
+            ],
+            "matchDatasources": [
+                "github-tags"
+            ],
+            "enabled": true
+        }
+    ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
     "branchConcurrentLimit": 0,
