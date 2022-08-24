@@ -5,29 +5,6 @@
         "github>frezbo/dotfiles//.github/gcloud-renovate",
         "github>aquaproj/aqua-renovate-config#1.2.4"
     ],
-    "regexManagers": [
-        {
-            "fileMatch": [
-                "\\.?aqua\\.ya?ml"
-            ],
-            "matchStrings": [
-                " +['\"]?name['\"]? *: +['\"]?(?<packageName>gcloud-cli)@(?<currentValue>[^'\" \\n]+)['\"]?"
-            ],
-            "datasourceTemplate": "github-tags",
-            "depNameTemplate": "twistedpair/google-cloud-sdk"
-        }
-    ],
-    "packageRules": [
-        {
-            "matchPackageNames": [
-                "gcloud-cli"
-            ],
-            "matchDatasources": [
-                "github-tags"
-            ],
-            "enabled": true
-        }
-    ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
     "branchConcurrentLimit": 0,
