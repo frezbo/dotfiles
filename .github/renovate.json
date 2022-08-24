@@ -13,7 +13,8 @@
                 " +['\"]?name['\"]? *: +['\"]?gcloud-cli@(?<currentValue>[^'\" \\n]+)['\"]?"
             ],
             "datasourceTemplate": "github-tags",
-            "depNameTemplate": "twistedpair/google-cloud-sdk"
+            "depNameTemplate": "twistedpair/google-cloud-sdk",
+            "versioningTemplate": "loose"
         }
     ],
     "packageRules": [
