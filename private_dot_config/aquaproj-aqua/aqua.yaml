@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.38.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.39.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -28,7 +28,7 @@ packages:
   - name: ahmetb/kubectl-tree@v0.4.2
   - name: pulumi/kubespy@v0.6.0
   - name: pulumi/pulumi@v3.38.0
-  - name: cli/cli@v2.14.6
+  - name: cli/cli@v2.14.7
   - name: sbstp/kubie@v0.18.0
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.35
@@ -63,6 +63,7 @@ packages:
   - name: golang/tools/goimports@v0.1.12
   - name: golangci/golangci-lint@v1.49.0
   - name: hashicorp/terraform@v1.2.8
+  - name: twistedpair/google-cloud-sdk@399.0.0
   - name: moul/assh@v2.14.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
@@ -89,8 +90,6 @@ packages:
   - name: wakatime/wakatime-cli@v1.54.0
     registry: remote
   - name: nodejs/node@v18.8.0
-    registry: remote
-  - name: gcloud-cli@397.0.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote

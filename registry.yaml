@@ -89,22 +89,6 @@ packages:
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npm-cli.js"
       - name: npx
         src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"
-  - name: gcloud-cli
-    type: http
-    repo_owner: twistedpair
-    repo_name: google-cloud-sdk
-    description: CLI for interacting with Google Cloud products and services.
-    version_source: github_tag
-    search_words:
-      - Linux Only
-    url: "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-{{ .Version }}-linux-x86_64.tar.gz"
-    files:
-      - name: gcloud
-        src: google-cloud-sdk/bin/gcloud
-      - name: gsutil
-        src: google-cloud-sdk/bin/gsutil
-    supported_envs:
-      - linux
   - type: go_install
     name: github.com/siderolabs/deep-copy
     path: github.com/siderolabs/deep-copy
