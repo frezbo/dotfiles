@@ -2,7 +2,6 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:base",
-        "github>frezbo/dotfiles//.github/gcloud-renovate",
         "github>aquaproj/aqua-renovate-config#1.2.4"
     ],
     "prHourlyLimit": 0,
