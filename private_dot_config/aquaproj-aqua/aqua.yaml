@@ -55,7 +55,7 @@ packages:
   - name: sigstore/rekor@v0.11.0
   - name: golang/go@go1.19
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.21.1
+  - name: twpayne/chezmoi@v2.22.0
   - name: kubernetes/kubectl@v1.25.0
   - name: helm/helm@v3.9.4
   - name: aws/aws-cli@2.7.16
