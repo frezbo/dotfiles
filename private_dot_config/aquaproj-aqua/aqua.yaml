@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.42.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.43.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -18,7 +18,7 @@ packages:
   - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.1
   - name: sigstore/cosign@v1.11.1
-  - name: nektos/act@v0.2.30
+  - name: nektos/act@v0.2.31
   - name: 99designs/aws-vault@v6.6.0
   - name: harness/drone-cli@v1.5.0
   - name: wagoodman/dive@v0.10.0
@@ -37,7 +37,7 @@ packages:
   - name: junegunn/fzf@0.33.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: corneliusweig/rakkess@v0.5.0
-  - name: gohugoio/hugo@v0.102.2
+  - name: gohugoio/hugo@v0.102.3
   - name: aquasecurity/trivy@v0.31.3
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.25.2
