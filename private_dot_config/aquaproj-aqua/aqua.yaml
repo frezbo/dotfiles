@@ -55,7 +55,7 @@ packages:
   - name: sigstore/rekor@v0.11.0
   - name: golang/go@go1.19
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.21.1
+  - name: twpayne/chezmoi@v2.22.0
   - name: kubernetes/kubectl@v1.25.0
   - name: helm/helm@v3.9.4
   - name: aws/aws-cli@2.7.16
@@ -68,7 +68,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
-  - name: cilium/cilium-cli@v0.12.2
+  - name: cilium/cilium-cli@v0.12.3
     registry: remote
   - name: docker/docker-credential-helpers@v0.6.4
     registry: remote
