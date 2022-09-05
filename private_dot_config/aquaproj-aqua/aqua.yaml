@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.46.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.47.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -55,7 +55,7 @@ packages:
   - name: sigstore/rekor@v0.11.0
   - name: golang/go@go1.19
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.22.0
+  - name: twpayne/chezmoi@v2.22.1
   - name: kubernetes/kubectl@v1.25.0
   - name: helm/helm@v3.9.4
   - name: aws/aws-cli@2.7.16
