@@ -24,12 +24,6 @@ packages:
       - name: docker-credential-secretservice
     description: Programs to keep Docker login credentials safe by storing in platform keystores
   - type: github_release
-    repo_owner: brompwnie
-    repo_name: botb
-    asset: "botb-{{ .OS }}-{{ .Arch }}"
-    format: raw
-    description: A container analysis and exploitation tool for pentesters and engineers
-  - type: github_release
     repo_owner: pulumi
     repo_name: crd2pulumi
     asset: "crd2pulumi-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
