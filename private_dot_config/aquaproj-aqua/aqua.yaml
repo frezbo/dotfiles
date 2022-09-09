@@ -45,7 +45,7 @@ packages:
   - name: stern/stern@v1.21.0
   - name: vmware-tanzu/velero@v1.9.1
   - name: FiloSottile/mkcert@v1.4.4
-  - name: starship/starship@v1.10.2
+  - name: starship/starship@v1.10.3
   - name: Versent/saml2aws@v2.36.0
   - name: sigstore/rekor@v0.11.0
   - name: golang/go@go1.19.1
@@ -80,9 +80,9 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
-  - name: wakatime/wakatime-cli@v1.54.0
+  - name: wakatime/wakatime-cli@v1.55.1
     registry: remote
-  - name: nodejs/node@v18.8.0
+  - name: nodejs/node@v18.9.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
