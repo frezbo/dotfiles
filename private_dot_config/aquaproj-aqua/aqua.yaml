@@ -24,7 +24,7 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.11.0
   - name: kubernetes-sigs/cluster-api@v1.2.1
-  - name: pulumi/pulumi@v3.39.3
+  - name: pulumi/pulumi@v3.39.4
   - name: cli/cli@v2.15.0
   - name: sbstp/kubie@v0.19.0
   - name: stedolan/jq@jq-1.6
@@ -46,7 +46,7 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.10.3
   - name: Versent/saml2aws@v2.36.0
-  - name: sigstore/rekor@v0.11.0
+  - name: sigstore/rekor@v0.12.0
   - name: golang/go@go1.19.1
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.22.1
