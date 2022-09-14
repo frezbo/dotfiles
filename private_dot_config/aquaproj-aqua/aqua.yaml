@@ -17,7 +17,7 @@ packages:
   - name: sharkdp/bat@v0.22.1
   - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.1
-  - name: sigstore/cosign@v1.11.1
+  - name: sigstore/cosign@v1.12.0
   - name: nektos/act@v0.2.31
   - name: 99designs/aws-vault@v6.6.0
   - name: harness/drone-cli@v1.5.0
