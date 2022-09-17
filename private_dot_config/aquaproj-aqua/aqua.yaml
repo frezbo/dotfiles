@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.54.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.55.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -30,7 +30,7 @@ packages:
   - name: siderolabs/talos@v1.2.2
   - name: junegunn/fzf@0.33.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.31.3
+  - name: aquasecurity/trivy@v0.32.0
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.25.3
   - name: FairwindsOps/rbac-lookup@v0.9.1
@@ -44,7 +44,7 @@ packages:
   - name: golang/go@go1.19.1
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.22.1
-  - name: kubernetes/kubectl@v1.25.0
+  - name: kubernetes/kubectl@v1.25.1
   - name: helm/helm@v3.9.4
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.17.1
