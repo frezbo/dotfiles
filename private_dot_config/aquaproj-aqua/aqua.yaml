@@ -47,7 +47,7 @@ packages:
   - name: kubernetes/kubectl@v1.25.1
   - name: helm/helm@v3.9.4
   - name: aws/aws-cli@2.7.16
-  - name: dundee/gdu@v5.17.1
+  - name: dundee/gdu@v5.18.1
   - name: golang/tools/goimports@v0.1.12
   - name: golangci/golangci-lint@v1.49.0
   - name: hashicorp/terraform@v1.2.9
