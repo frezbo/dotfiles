@@ -19,9 +19,8 @@ packages:
   - type: github_release
     repo_owner: docker
     repo_name: docker-credential-helpers
-    asset: "docker-credential-secretservice-{{ .Version }}-{{ .Arch }}.tar.gz"
-    files:
-      - name: docker-credential-secretservice
+    asset: "docker-credential-secretservice-{{ .Version }}.{{ .OS }}-{{ .Arch }}"
+    format: raw
     description: Programs to keep Docker login credentials safe by storing in platform keystores
   - type: github_release
     repo_owner: pulumi
