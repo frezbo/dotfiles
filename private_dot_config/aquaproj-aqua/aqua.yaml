@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.59.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.60.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -43,7 +43,7 @@ packages:
   - name: Versent/saml2aws@v2.36.0
   - name: golang/go@go1.19.1
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.23.0
+  - name: twpayne/chezmoi@v2.24.0
   - name: kubernetes/kubectl@v1.25.2
   - name: helm/helm@v3.10.0
   - name: aws/aws-cli@2.7.16
@@ -77,7 +77,7 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.55.1
     registry: remote
-  - name: nodejs/node@v18.9.0
+  - name: nodejs/node@v18.9.1
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
