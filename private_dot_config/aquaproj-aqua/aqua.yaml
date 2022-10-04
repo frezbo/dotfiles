@@ -51,7 +51,7 @@ packages:
   - name: golang/tools/goimports@v0.1.12
   - name: golangci/golangci-lint@v1.49.0
   - name: hashicorp/terraform@v1.3.1
-  - name: twistedpair/google-cloud-sdk@404.0.0
+  - name: twistedpair/google-cloud-sdk@405.0.0
   - name: golang/vuln/govulncheck
     version: 485fff3
   - name: moul/assh@v2.14.0
