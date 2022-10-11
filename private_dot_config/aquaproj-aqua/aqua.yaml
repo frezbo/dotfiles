@@ -75,7 +75,7 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
-  - name: wakatime/wakatime-cli@v1.55.1
+  - name: wakatime/wakatime-cli@v1.55.2
     registry: remote
   - name: nodejs/node@v18.10.0
     registry: remote
