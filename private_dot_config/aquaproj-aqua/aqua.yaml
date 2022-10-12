@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.72.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.74.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -27,7 +27,7 @@ packages:
   - name: sbstp/kubie@v0.19.0
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.35
-  - name: siderolabs/talos@v1.2.4
+  - name: siderolabs/talos@v1.2.5
   - name: junegunn/fzf@0.34.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.32.1
@@ -75,7 +75,7 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
-  - name: wakatime/wakatime-cli@v1.55.1
+  - name: wakatime/wakatime-cli@v1.55.2
     registry: remote
   - name: nodejs/node@v18.10.0
     registry: remote
