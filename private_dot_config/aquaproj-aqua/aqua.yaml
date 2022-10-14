@@ -77,7 +77,7 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.55.2
     registry: remote
-  - name: nodejs/node@v18.10.0
+  - name: nodejs/node@v18.11.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
