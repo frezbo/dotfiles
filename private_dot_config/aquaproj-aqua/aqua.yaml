@@ -54,7 +54,7 @@ packages:
   - name: twistedpair/google-cloud-sdk@405.0.0
   - name: golang/vuln/govulncheck
     version: 485fff3
-  - name: moul/assh@v2.14.0
+  - name: moul/assh@v2.15.0
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
