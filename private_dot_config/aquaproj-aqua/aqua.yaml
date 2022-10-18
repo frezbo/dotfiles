@@ -62,7 +62,7 @@ packages:
     registry: remote
   - name: docker/docker-credential-helpers@v0.7.0
     registry: remote
-  - name: pulumi/crd2pulumi@v1.2.2
+  - name: pulumi/crd2pulumi@v1.2.3
     registry: remote
   - name: davecheney/httpstat
     version: v1.0.0-rc.1
