@@ -35,7 +35,7 @@ packages:
   - name: int128/kubelogin@v1.25.3
   - name: FairwindsOps/rbac-lookup@v0.9.1
   - name: koalaman/shellcheck@v0.8.0
-  - name: mikefarah/yq@v4.28.1
+  - name: mikefarah/yq@v4.28.2
   - name: ogham/exa@v0.10.1
   - name: stern/stern@v1.22.0
   - name: FiloSottile/mkcert@v1.4.4
