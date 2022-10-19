@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.76.2 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.77.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -23,7 +23,7 @@ packages:
   - name: google/go-containerregistry@v0.11.0
   - name: kubernetes-sigs/cluster-api@v1.2.4
   - name: pulumi/pulumi@v3.43.1
-  - name: cli/cli@v2.17.0
+  - name: cli/cli@v2.18.0
   - name: sbstp/kubie@v0.19.0
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.35
@@ -35,7 +35,7 @@ packages:
   - name: int128/kubelogin@v1.25.3
   - name: FairwindsOps/rbac-lookup@v0.9.1
   - name: koalaman/shellcheck@v0.8.0
-  - name: mikefarah/yq@v4.28.1
+  - name: mikefarah/yq@v4.28.2
   - name: ogham/exa@v0.10.1
   - name: stern/stern@v1.22.0
   - name: FiloSottile/mkcert@v1.4.4
@@ -58,11 +58,9 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
-  - name: cilium/cilium-cli@v0.12.4
+  - name: cilium/cilium-cli@v0.12.5
     registry: remote
   - name: docker/docker-credential-helpers@v0.7.0
-    registry: remote
-  - name: pulumi/crd2pulumi@v1.2.2
     registry: remote
   - name: davecheney/httpstat
     version: v1.0.0-rc.1
@@ -77,7 +75,7 @@ packages:
     registry: remote
   - name: wakatime/wakatime-cli@v1.55.2
     registry: remote
-  - name: nodejs/node@v18.11.0
+  - name: nodejs/node@v19.0.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote

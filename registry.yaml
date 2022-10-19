@@ -25,11 +25,6 @@ packages:
     files:
       - name: docker-credential-secretservice
   - type: github_release
-    repo_owner: pulumi
-    repo_name: crd2pulumi
-    asset: "crd2pulumi-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
-    description: Generate typed CustomResources from a Kubernetes CustomResourceDefinition
-  - type: github_release
     repo_owner: davecheney
     repo_name: httpstat
     asset: "httpstat-{{ .OS }}-{{ .Arch }}-{{ .Version }}"
