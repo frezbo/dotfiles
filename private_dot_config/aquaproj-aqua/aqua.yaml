@@ -43,7 +43,7 @@ packages:
   - name: Versent/saml2aws@v2.36.1
   - name: golang/go@go1.19.2
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.25.0
+  - name: twpayne/chezmoi@v2.26.0
   - name: kubernetes/kubectl@v1.25.3
   - name: helm/helm@v3.10.1
   - name: aws/aws-cli@2.7.16
