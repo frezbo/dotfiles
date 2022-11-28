@@ -4,7 +4,7 @@ defaultBranch=main
 [user]
 name=Noel Georgi
 email=git@frezbo.dev
-signingkey=D3BE2D6FB575E5301D97EE42B0F957B892152E93
+signingkey=CC51116A94490FA6FB3C18EB2401FCAE863A06CA
 
 [commit]
 gpgSign=true
