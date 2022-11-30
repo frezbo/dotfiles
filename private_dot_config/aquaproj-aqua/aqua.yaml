@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.99.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.100.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -59,7 +59,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.7
     registry: remote
-  - name: cilium/cilium-cli@v0.12.9
+  - name: cilium/cilium-cli@v0.12.10
     registry: remote
   - name: docker/docker-credential-helpers@v0.7.0
     registry: remote
@@ -74,7 +74,7 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
-  - name: nodejs/node@v19.1.0
+  - name: nodejs/node@v19.2.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
