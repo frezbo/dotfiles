@@ -21,7 +21,7 @@ packages:
   - name: harness/drone-cli@v1.6.2
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.12.1
-  - name: kubernetes-sigs/cluster-api@v1.2.6
+  - name: kubernetes-sigs/cluster-api@v1.3.0
   - name: pulumi/pulumi@v3.48.0
   - name: cli/cli@v2.20.2
   - name: sbstp/kubie@v0.19.1
