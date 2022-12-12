@@ -57,7 +57,7 @@ packages:
     version: fac3670
   - name: moul/assh@v2.15.0
     registry: remote
-  - name: pete911/certinfo@v1.0.12
+  - name: pete911/certinfo@v1.0.13
     registry: remote
   - name: cilium/cilium-cli@v0.12.11
     registry: remote
