@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.104.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.105.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -21,13 +21,13 @@ packages:
   - name: harness/drone-cli@v1.6.2
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.12.1
-  - name: kubernetes-sigs/cluster-api@v1.3.0
+  - name: kubernetes-sigs/cluster-api@v1.3.1
   - name: pulumi/pulumi@v3.49.0
   - name: cli/cli@v2.20.2
   - name: sbstp/kubie@v0.19.1
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.36
-  - name: siderolabs/talos@v1.2.7
+  - name: siderolabs/talos@v1.3.0
   - name: junegunn/fzf@0.35.1
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.35.0
@@ -45,7 +45,7 @@ packages:
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.27.3
   - name: kubernetes/kubectl@v1.26.0
-  - name: helm/helm@v3.10.2
+  - name: helm/helm@v3.10.3
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.20.0
   - name: golang/tools/goimports@v0.4.0
@@ -74,7 +74,7 @@ packages:
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
-  - name: nodejs/node@v19.2.0
+  - name: nodejs/node@v19.3.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
