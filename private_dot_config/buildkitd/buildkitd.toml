@@ -8,10 +8,6 @@ insecure-entitlements = [ "network.host", "security.insecure" ]
   mirrors = ["127.0.0.1:5001"]
   http = true
   insecure = true
-[registry."quay.io"]
-  mirrors = ["127.0.0.1:5002"]
-  http = true
-  insecure = true
 [registry."gcr.io"]
   mirrors = ["127.0.0.1:5003"]
   http = true
