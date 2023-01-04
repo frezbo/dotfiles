@@ -23,7 +23,7 @@ packages:
   - name: google/go-containerregistry@v0.12.1
   - name: kubernetes-sigs/cluster-api@v1.3.1
   - name: pulumi/pulumi@v3.50.2
-  - name: cli/cli@v2.21.1
+  - name: cli/cli@v2.21.2
   - name: sbstp/kubie@v0.19.1
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.36
@@ -70,7 +70,7 @@ packages:
     registry: remote
   - name: itaysk/kubectl-neat@v2.0.3
     registry: remote
-  - name: pulumi/pulumictl@v0.0.38
+  - name: pulumi/pulumictl@v0.0.39
     registry: remote
   - name: r-darwish/topgrade@v9.0.1
     registry: remote
