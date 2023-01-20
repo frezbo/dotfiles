@@ -22,7 +22,7 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.12.1
   - name: kubernetes-sigs/cluster-api@v1.3.2
-  - name: pulumi/pulumi@v3.52.0
+  - name: pulumi/pulumi@v3.52.1
   - name: cli/cli@v2.21.2
   - name: sbstp/kubie@v0.19.1
   - name: stedolan/jq@jq-1.6
@@ -43,7 +43,7 @@ packages:
   - name: Versent/saml2aws@v2.36.2
   - name: golang/go@go1.19.5
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.29.2
+  - name: twpayne/chezmoi@v2.29.3
   - name: kubernetes/kubectl@v1.26.1
   - name: helm/helm@v3.11.0
   - name: aws/aws-cli@2.7.16
