@@ -45,18 +45,6 @@ packages:
     repo_name: pulumictl
     asset: "pulumictl-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
     description: A swiss army knife for Pulumi development
-  - type: github_release
-    repo_owner: r-darwish
-    repo_name: topgrade
-    asset: "topgrade-{{ .Version }}-x86_64-{{ .OS }}.{{ .Format }}"
-    description: Upgrade everything
-    replacements:
-      darwin: apple-darwin
-      linux: unknown-linux-musl
-    format: tar.gz
-    format_overrides:
-      - goos: windows
-        format: zip
   - name: nodejs/node
     type: http
     url: "https://nodejs.org/download/release/{{ .Version }}/node-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
