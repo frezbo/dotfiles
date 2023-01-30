@@ -53,7 +53,7 @@ packages:
   - name: hashicorp/terraform@v1.3.7
   - name: twistedpair/google-cloud-sdk@415.0.0
   - name: wakatime/wakatime-cli@v1.62.1
-  - name: topgrade-rs/topgrade@v10.3.4
+  - name: topgrade-rs/topgrade@v10.3.0
   - name: golang/vuln/govulncheck
     version: fac3670
   - name: moul/assh@v2.15.0
