@@ -10,6 +10,9 @@ export AQUA_EXPERIMENTAL_X_SYS_EXEC="true"
 export AQUA_LOG_COLOR="always"
 export AQUA_PROGRESS_BAR="true"
 
+# disable topgrade self update since it's managed by aqua
+export TOPGRADE_NO_SELF_UPGRADE=""
+
 set starship_precmd_user_func "set_win_title"
 starship init fish | source
 
