@@ -24,7 +24,7 @@ packages:
   - name: kubernetes-sigs/cluster-api@v1.3.3
   - name: pulumi/pulumi@v3.53.1
   - name: cli/cli@v2.22.1
-  - name: sbstp/kubie@v0.19.2
+  - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.36
   - name: siderolabs/talos@v1.3.3
