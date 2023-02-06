@@ -52,7 +52,7 @@ packages:
   - name: golangci/golangci-lint@v1.51.0
   - name: hashicorp/terraform@v1.3.7
   - name: twistedpair/google-cloud-sdk@416.0.0
-  - name: wakatime/wakatime-cli@v1.64.1
+  - name: wakatime/wakatime-cli@v1.65.0
   - name: topgrade-rs/topgrade@v10.3.1
   - name: golang/vuln/govulncheck
     version: fac3670
