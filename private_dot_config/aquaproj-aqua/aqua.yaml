@@ -73,7 +73,7 @@ packages:
     registry: remote
   - name: pulumi/pulumictl@v0.0.42
     registry: remote
-  - name: nodejs/node@v19.6.1
+  - name: nodejs/node@v19.7.0
     registry: remote
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: remote
