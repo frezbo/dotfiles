@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.138.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.139.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -21,8 +21,8 @@ packages:
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.13.0
-  - name: kubernetes-sigs/cluster-api@v1.3.4
-  - name: pulumi/pulumi@v3.55.0
+  - name: kubernetes-sigs/cluster-api@v1.3.5
+  - name: pulumi/pulumi@v3.56.0
   - name: cli/cli@v2.23.0
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
@@ -30,7 +30,7 @@ packages:
   - name: siderolabs/talos@v1.3.5
   - name: junegunn/fzf@0.38.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.38.0
+  - name: aquasecurity/trivy@v0.38.1
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.27.0
   - name: FairwindsOps/rbac-lookup@v0.10.0
