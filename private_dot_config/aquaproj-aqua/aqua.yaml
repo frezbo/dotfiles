@@ -60,7 +60,7 @@ packages:
     registry: remote
   - name: pete911/certinfo@v1.0.13
     registry: remote
-  - name: cilium/cilium-cli@v0.13.0
+  - name: cilium/cilium-cli@v0.13.1
     registry: remote
   - name: docker/docker-credential-helpers@v0.7.0
     registry: remote
