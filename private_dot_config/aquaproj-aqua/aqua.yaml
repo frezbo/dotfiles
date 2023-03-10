@@ -58,7 +58,7 @@ packages:
     version: 4c848ed
   - name: moul/assh@v2.15.0
     registry: remote
-  - name: pete911/certinfo@v1.0.13
+  - name: pete911/certinfo@v1.0.15
     registry: remote
   - name: cilium/cilium-cli@v0.13.1
     registry: remote
