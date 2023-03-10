@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.140.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.143.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
@@ -22,15 +22,15 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.13.0
   - name: kubernetes-sigs/cluster-api@v1.3.5
-  - name: pulumi/pulumi@v3.56.0
-  - name: cli/cli@v2.23.0
+  - name: pulumi/pulumi@v3.57.1
+  - name: cli/cli@v2.24.3
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
   - name: siderolabs/talos@v1.3.5
   - name: junegunn/fzf@0.38.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.38.1
+  - name: aquasecurity/trivy@v0.38.2
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.27.0
   - name: FairwindsOps/rbac-lookup@v0.10.0
@@ -41,17 +41,17 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.13.1
   - name: Versent/saml2aws@v2.36.4
-  - name: golang/go@go1.20.1
+  - name: golang/go@go1.20.2
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.31.1
   - name: kubernetes/kubectl@v1.26.2
-  - name: helm/helm@v3.11.1
+  - name: helm/helm@v3.11.2
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.22.0
   - name: golang/tools/goimports@v0.4.0
   - name: golangci/golangci-lint@v1.51.2
-  - name: hashicorp/terraform@v1.3.9
-  - name: twistedpair/google-cloud-sdk@420.0.0
+  - name: hashicorp/terraform@v1.4.0
+  - name: twistedpair/google-cloud-sdk@421.0.0
   - name: wakatime/wakatime-cli@v1.68.3
   - name: topgrade-rs/topgrade@v10.3.1
   - name: golang/vuln/govulncheck
