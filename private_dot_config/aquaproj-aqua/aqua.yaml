@@ -20,7 +20,7 @@ packages:
   - name: sigstore/cosign@v2.0.0
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.10.0
-  - name: google/go-containerregistry@v0.13.0
+  - name: google/go-containerregistry@v0.14.0
   - name: kubernetes-sigs/cluster-api@v1.3.5
   - name: pulumi/pulumi@v3.57.1
   - name: cli/cli@v2.24.3
