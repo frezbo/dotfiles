@@ -5,13 +5,16 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.148.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.149.0 # renovate: depName=aquaproj/aqua-registry
 - name: remote
   type: github_content
   repo_owner: frezbo
   repo_name: dotfiles
   ref: main
   path: registry.yaml
+packages:
+  - registry: standard
+  - registry: remote
 
 packages:
   - name: sharkdp/bat@v0.22.1
@@ -43,7 +46,7 @@ packages:
   - name: Versent/saml2aws@v2.36.5
   - name: golang/go@go1.20.2
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.32.0
+  - name: twpayne/chezmoi@v2.33.0
   - name: kubernetes/kubectl@v1.26.3
   - name: helm/helm@v3.11.2
   - name: aws/aws-cli@2.7.16
