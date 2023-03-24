@@ -6,15 +6,9 @@ checksum:
 registries:
 - type: standard
   ref: v3.149.0 # renovate: depName=aquaproj/aqua-registry
-- name: remote
-  type: github_content
-  repo_owner: frezbo
-  repo_name: dotfiles
-  ref: main
+- type: local
+  name: local
   path: registry.yaml
-packages:
-  - registry: standard
-  - registry: remote
 
 packages:
   - name: sharkdp/bat@v0.22.1
@@ -60,23 +54,23 @@ packages:
   - name: golang/vuln/govulncheck
     version: 4c848ed
   - name: moul/assh@v2.15.0
-    registry: remote
+    registry: local
   - name: pete911/certinfo@v1.0.15
-    registry: remote
+    registry: local
   - name: cilium/cilium-cli@v0.13.2
-    registry: remote
+    registry: local
   - name: docker/docker-credential-helpers@v0.7.0
-    registry: remote
+    registry: local
   - name: davecheney/httpstat
     version: v1.0.0-rc.1
-    registry: remote
+    registry: local
   - name: chrischdi/k8s-ctx-import@v0.4.1
-    registry: remote
+    registry: local
   - name: itaysk/kubectl-neat@v2.0.3
-    registry: remote
+    registry: local
   - name: pulumi/pulumictl@v0.0.42
-    registry: remote
+    registry: local
   - name: nodejs/node@v19.8.1
-    registry: remote
+    registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
-    registry: remote
+    registry: local
