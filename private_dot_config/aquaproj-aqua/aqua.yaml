@@ -27,7 +27,7 @@ packages:
   - name: siderolabs/talos@v1.3.6
   - name: junegunn/fzf@0.38.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.38.3
+  - name: aquasecurity/trivy@v0.39.0
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.27.0
   - name: FairwindsOps/rbac-lookup@v0.10.0
