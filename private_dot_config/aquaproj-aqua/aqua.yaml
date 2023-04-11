@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.150.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.152.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -27,7 +27,7 @@ packages:
   - name: siderolabs/talos@v1.3.7
   - name: junegunn/fzf@0.39.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.39.0
+  - name: aquasecurity/trivy@v0.39.1
   - name: fullstorydev/grpcurl@v1.8.7
   - name: int128/kubelogin@v1.27.0
   - name: FairwindsOps/rbac-lookup@v0.10.1
@@ -70,7 +70,7 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.42
     registry: local
-  - name: nodejs/node@v19.8.1
+  - name: nodejs/node@v19.9.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
