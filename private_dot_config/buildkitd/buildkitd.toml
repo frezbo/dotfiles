@@ -1,10 +1,22 @@
 insecure-entitlements = [ "network.host", "security.insecure" ]
 
+[worker.oci]
+  gc = true
+  gckeepstorage = 50000
+
+  [[worker.oci.gcpolicy]]
+    keepBytes = 10737418240
+    keepDuration = 604800
+    filters = [ "type==source.local", "type==exec.cachemount", "type==source.git.checkout"]
+  [[worker.oci.gcpolicy]]
+    all = true
+    keepBytes = 53687091200
+
 [registry."docker.io"]
   mirrors = ["127.0.0.1:5000"]
   http = true
   insecure = true
-[registry."registry.k8s.io"]
+[registry."k8s.gcr.io"]
   mirrors = ["127.0.0.1:5001"]
   http = true
   insecure = true
