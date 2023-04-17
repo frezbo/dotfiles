@@ -66,3 +66,13 @@ packages:
     repo_name: deep-copy
     description: Deep copy generator
     version_source: github_tag
+  - type: github_release
+    repo_owner: superfly
+    repo_name: flyctl
+    asset: "flyctl_{{ trimV .Version }}_Linux_{{ .Arch }}.tar.gz"
+    replacements:
+      linux: Linux
+      windows: Windows
+      darwin: macOS
+      amd64: x86_64
+    description: Command line tools for fly.io services
