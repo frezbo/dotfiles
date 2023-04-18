@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v3.156.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v3.157.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.0.522
+  - name: superfly/flyctl@v0.0.525
     registry: local
