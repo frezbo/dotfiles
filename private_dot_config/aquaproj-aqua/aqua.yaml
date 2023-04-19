@@ -19,12 +19,12 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.14.0
   - name: kubernetes-sigs/cluster-api@v1.4.1
-  - name: pulumi/pulumi@v3.63.0
+  - name: pulumi/pulumi@v3.64.0
   - name: cli/cli@v2.27.0
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
-  - name: siderolabs/talos@v1.3.7
+  - name: siderolabs/talos@v1.4.0
   - name: junegunn/fzf@0.39.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.40.0
@@ -48,7 +48,7 @@ packages:
   - name: golang/tools/goimports@v0.4.0
   - name: golangci/golangci-lint@v1.52.2
   - name: hashicorp/terraform@v1.4.5
-  - name: twistedpair/google-cloud-sdk@426.0.0
+  - name: twistedpair/google-cloud-sdk@427.0.0
   - name: wakatime/wakatime-cli@v1.73.0
   - name: topgrade-rs/topgrade@v10.3.3
   - name: golang/vuln/govulncheck
@@ -70,9 +70,9 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.42
     registry: local
-  - name: nodejs/node@v19.9.0
+  - name: nodejs/node@v20.0.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.0.525
+  - name: superfly/flyctl@v0.0.526
     registry: local
