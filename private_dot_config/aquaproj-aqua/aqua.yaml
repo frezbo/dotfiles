@@ -50,7 +50,7 @@ packages:
   - name: hashicorp/terraform@v1.4.6
   - name: twistedpair/google-cloud-sdk@428.0.0
   - name: wakatime/wakatime-cli@v1.73.0
-  - name: topgrade-rs/topgrade@v11.0.0
+  - name: topgrade-rs/topgrade@v11.0.2
   - name: golang/vuln/govulncheck
     version: 9550759
   - name: moul/assh@v2.15.0
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.0.548
+  - name: superfly/flyctl@v0.0.549
     registry: local
