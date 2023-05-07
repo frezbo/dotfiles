@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.0.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.1.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -17,7 +17,7 @@ packages:
   - name: sigstore/cosign@v2.0.2
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.10.0
-  - name: google/go-containerregistry@v0.14.0
+  - name: google/go-containerregistry@v0.15.1
   - name: kubernetes-sigs/cluster-api@v1.4.2
   - name: pulumi/pulumi@v3.66.0
   - name: cli/cli@v2.28.0
@@ -37,7 +37,7 @@ packages:
   - name: stern/stern@v1.25.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.14.2
-  - name: Versent/saml2aws@v2.36.6
+  - name: Versent/saml2aws@v2.36.7
   - name: golang/go@go1.20.4
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.33.4
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.0.554
+  - name: superfly/flyctl@v0.0.558
     registry: local
