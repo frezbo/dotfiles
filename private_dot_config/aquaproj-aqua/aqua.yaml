@@ -48,8 +48,8 @@ packages:
   - name: golang/tools/goimports@v0.4.0
   - name: golangci/golangci-lint@v1.52.2
   - name: hashicorp/terraform@v1.4.6
-  - name: twistedpair/google-cloud-sdk@429.0.0
-  - name: wakatime/wakatime-cli@v1.73.0
+  - name: twistedpair/google-cloud-sdk@430.0.0
+  - name: wakatime/wakatime-cli@v1.73.1
   - name: topgrade-rs/topgrade@v11.0.2
   - name: golang/vuln/govulncheck
     version: 9550759
