@@ -68,7 +68,7 @@ packages:
     registry: local
   - name: itaysk/kubectl-neat@v2.0.3
     registry: local
-  - name: pulumi/pulumictl@v0.0.42
+  - name: pulumi/pulumictl@v0.0.43
     registry: local
   - name: nodejs/node@v20.1.0
     registry: local
