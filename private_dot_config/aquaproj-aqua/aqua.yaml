@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.2.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.3.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -20,11 +20,11 @@ packages:
   - name: google/go-containerregistry@v0.15.1
   - name: kubernetes-sigs/cluster-api@v1.4.2
   - name: pulumi/pulumi@v3.66.0
-  - name: cli/cli@v2.28.0
+  - name: cli/cli@v2.29.0
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
-  - name: siderolabs/talos@v1.4.2
+  - name: siderolabs/talos@v1.4.3
   - name: junegunn/fzf@0.40.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.41.0
@@ -42,7 +42,7 @@ packages:
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.33.4
   - name: kubernetes/kubectl@v1.27.1
-  - name: helm/helm@v3.11.3
+  - name: helm/helm@v3.12.0
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.23.0
   - name: golang/tools/goimports@v0.4.0
