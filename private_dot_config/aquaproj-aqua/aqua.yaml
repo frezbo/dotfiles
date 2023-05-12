@@ -24,7 +24,7 @@ packages:
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
-  - name: siderolabs/talos@v1.4.3
+  - name: siderolabs/talos@v1.4.4
   - name: junegunn/fzf@0.40.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.41.0
