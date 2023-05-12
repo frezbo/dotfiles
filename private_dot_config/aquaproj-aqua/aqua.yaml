@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.3.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.4.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -19,7 +19,7 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.15.1
   - name: kubernetes-sigs/cluster-api@v1.4.2
-  - name: pulumi/pulumi@v3.66.0
+  - name: pulumi/pulumi@v3.67.0
   - name: cli/cli@v2.29.0
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
@@ -40,7 +40,7 @@ packages:
   - name: Versent/saml2aws@v2.36.7
   - name: golang/go@go1.20.4
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.33.4
+  - name: twpayne/chezmoi@v2.33.5
   - name: kubernetes/kubectl@v1.27.1
   - name: helm/helm@v3.12.0
   - name: aws/aws-cli@2.7.16
@@ -68,11 +68,11 @@ packages:
     registry: local
   - name: itaysk/kubectl-neat@v2.0.3
     registry: local
-  - name: pulumi/pulumictl@v0.0.42
+  - name: pulumi/pulumictl@v0.0.43
     registry: local
   - name: nodejs/node@v20.1.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.0
+  - name: superfly/flyctl@v0.1.3
     registry: local
