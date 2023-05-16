@@ -70,7 +70,7 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.43
     registry: local
-  - name: nodejs/node@v20.1.0
+  - name: nodejs/node@v20.2.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
