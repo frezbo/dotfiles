@@ -17,7 +17,7 @@ packages:
   - name: sigstore/cosign@v2.0.2
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.10.0
-  - name: google/go-containerregistry@v0.15.1
+  - name: google/go-containerregistry@v0.15.2
   - name: kubernetes-sigs/cluster-api@v1.4.2
   - name: pulumi/pulumi@v3.67.1
   - name: cli/cli@v2.29.0
@@ -48,7 +48,7 @@ packages:
   - name: golang/tools/goimports@v0.4.0
   - name: golangci/golangci-lint@v1.52.2
   - name: hashicorp/terraform@v1.4.6
-  - name: twistedpair/google-cloud-sdk@430.0.0
+  - name: twistedpair/google-cloud-sdk@431.0.0
   - name: wakatime/wakatime-cli@v1.73.1
   - name: topgrade-rs/topgrade@v11.0.2
   - name: golang/vuln/govulncheck
@@ -70,9 +70,9 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.43
     registry: local
-  - name: nodejs/node@v20.1.0
+  - name: nodejs/node@v20.2.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.4
+  - name: superfly/flyctl@v0.1.6
     registry: local
