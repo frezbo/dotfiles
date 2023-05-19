@@ -41,7 +41,7 @@ packages:
   - name: golang/go@go1.20.4
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.33.6
-  - name: kubernetes/kubectl@v1.27.1
+  - name: kubernetes/kubectl@v1.27.2
   - name: helm/helm@v3.12.0
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.23.0
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.7
+  - name: superfly/flyctl@v0.1.8
     registry: local
