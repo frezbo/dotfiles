@@ -55,7 +55,7 @@ packages:
     version: 9550759
   - name: moul/assh@v2.15.0
     registry: local
-  - name: pete911/certinfo@v1.0.16
+  - name: pete911/certinfo@v1.0.17
     registry: local
   - name: cilium/cilium-cli@v0.14.3
     registry: local
