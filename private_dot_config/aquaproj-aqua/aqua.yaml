@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.9.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.10.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -25,7 +25,7 @@ packages:
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
   - name: siderolabs/talos@v1.4.4
-  - name: junegunn/fzf@0.41.0
+  - name: junegunn/fzf@0.41.1
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.41.0
   - name: fullstorydev/grpcurl@v1.8.7
@@ -57,7 +57,7 @@ packages:
     registry: local
   - name: pete911/certinfo@v1.0.17
     registry: local
-  - name: cilium/cilium-cli@v0.14.4
+  - name: cilium/cilium-cli@v0.14.5
     registry: local
   - name: docker/docker-credential-helpers@v0.7.0
     registry: local
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.14
+  - name: superfly/flyctl@v0.1.20
     registry: local
