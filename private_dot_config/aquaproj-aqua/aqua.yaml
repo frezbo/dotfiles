@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.10.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.12.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -20,11 +20,11 @@ packages:
   - name: google/go-containerregistry@v0.15.2
   - name: kubernetes-sigs/cluster-api@v1.4.2
   - name: pulumi/pulumi@v3.68.0
-  - name: cli/cli@v2.29.0
+  - name: cli/cli@v2.30.0
   - name: sbstp/kubie@v0.19.3
   - name: stedolan/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
-  - name: siderolabs/talos@v1.4.4
+  - name: siderolabs/talos@v1.4.5
   - name: junegunn/fzf@0.41.1
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.41.0
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.20
+  - name: superfly/flyctl@v0.1.23
     registry: local
