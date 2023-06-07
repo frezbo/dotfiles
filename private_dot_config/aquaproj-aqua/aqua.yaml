@@ -36,7 +36,7 @@ packages:
   - name: ogham/exa@v0.10.1
   - name: stern/stern@v1.25.0
   - name: FiloSottile/mkcert@v1.4.4
-  - name: starship/starship@v1.14.2
+  - name: starship/starship@v1.15.0
   - name: Versent/saml2aws@v2.36.8
   - name: golang/go@go1.20.4
   - name: siderolabs/theila@v0.2.1
