@@ -37,7 +37,7 @@ packages:
   - name: stern/stern@v1.25.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.15.0
-  - name: Versent/saml2aws@v2.36.8
+  - name: Versent/saml2aws@v2.36.9
   - name: golang/go@go1.20.5
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.34.1
