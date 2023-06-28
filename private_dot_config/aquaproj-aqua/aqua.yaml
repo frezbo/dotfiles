@@ -48,9 +48,9 @@ packages:
   - name: golang/tools/goimports@v0.4.0
   - name: golangci/golangci-lint@v1.53.3
   - name: hashicorp/terraform@v1.5.2
-  - name: twistedpair/google-cloud-sdk@436.0.0
+  - name: twistedpair/google-cloud-sdk@437.0.0
   - name: wakatime/wakatime-cli@v1.73.1
-  - name: topgrade-rs/topgrade@v11.0.2
+  - name: topgrade-rs/topgrade@v12.0.0
   - name: golang/vuln/govulncheck
     version: 9550759
   - name: moul/assh@v2.15.0
