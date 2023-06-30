@@ -24,7 +24,7 @@ packages:
   - name: sbstp/kubie@v0.19.3
   - name: jqlang/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
-  - name: siderolabs/talos@v1.4.5
+  - name: siderolabs/talos@v1.4.6
   - name: junegunn/fzf@0.42.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.42.1
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.42
+  - name: superfly/flyctl@v0.1.44
     registry: local
