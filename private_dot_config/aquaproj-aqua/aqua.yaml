@@ -19,7 +19,7 @@ packages:
   - name: wagoodman/dive@v0.10.0
   - name: google/go-containerregistry@v0.15.2
   - name: kubernetes-sigs/cluster-api@v1.4.4
-  - name: pulumi/pulumi@v3.73.0
+  - name: pulumi/pulumi@v3.74.0
   - name: cli/cli@v2.31.0
   - name: sbstp/kubie@v0.19.3
   - name: jqlang/jq@jq-1.6
@@ -55,7 +55,7 @@ packages:
     version: 9550759
   - name: moul/assh@v2.15.0
     registry: local
-  - name: pete911/certinfo@v1.0.17
+  - name: pete911/certinfo@v1.0.18
     registry: local
   - name: cilium/cilium-cli@v0.15.0
     registry: local
@@ -74,5 +74,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.44
+  - name: superfly/flyctl@v0.1.45
     registry: local
