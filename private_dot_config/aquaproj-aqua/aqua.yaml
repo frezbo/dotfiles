@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.24.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.25.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -55,7 +55,7 @@ packages:
     version: 9550759
   - name: moul/assh@v2.15.0
     registry: local
-  - name: pete911/certinfo@v1.0.18
+  - name: pete911/certinfo@v1.0.20
     registry: local
   - name: cilium/cilium-cli@v0.15.0
     registry: local
@@ -70,9 +70,9 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.43
     registry: local
-  - name: nodejs/node@v20.3.1
+  - name: nodejs/node@v20.4.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.48
+  - name: superfly/flyctl@v0.1.50
     registry: local
