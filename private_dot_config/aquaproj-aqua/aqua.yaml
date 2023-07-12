@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.25.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.26.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -20,8 +20,8 @@ packages:
   - name: google/go-containerregistry@v0.15.2
   - name: kubernetes-sigs/cluster-api@v1.4.4
   - name: pulumi/pulumi@v3.74.0
-  - name: cli/cli@v2.31.0
-  - name: sbstp/kubie@v0.19.3
+  - name: cli/cli@v2.32.0
+  - name: sbstp/kubie@v0.20.0
   - name: jqlang/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.37
   - name: siderolabs/talos@v1.4.6
@@ -32,32 +32,31 @@ packages:
   - name: int128/kubelogin@v1.28.0
   - name: FairwindsOps/rbac-lookup@v0.10.1
   - name: koalaman/shellcheck@v0.9.0
-  - name: mikefarah/yq@v4.34.1
+  - name: mikefarah/yq@v4.34.2
   - name: ogham/exa@v0.10.1
   - name: stern/stern@v1.25.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.15.0
   - name: Versent/saml2aws@v2.36.10
-  - name: golang/go@go1.20.5
+  - name: golang/go@go1.20.6
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.34.3
   - name: kubernetes/kubectl@v1.27.3
   - name: helm/helm@v3.12.1
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.25.0
-  - name: golang/tools/goimports@v0.4.0
+  - name: golang/tools/goimports@v0.11.0
   - name: golangci/golangci-lint@v1.53.3
   - name: hashicorp/terraform@v1.5.2
-  - name: twistedpair/google-cloud-sdk@437.0.1
+  - name: twistedpair/google-cloud-sdk@438.0.0
   - name: wakatime/wakatime-cli@v1.73.1
   - name: topgrade-rs/topgrade@v12.0.0
+  - name: cilium/cilium-cli@v0.15.1
   - name: golang/vuln/govulncheck
     version: 9550759
   - name: moul/assh@v2.15.0
     registry: local
   - name: pete911/certinfo@v1.0.21
-    registry: local
-  - name: cilium/cilium-cli@v0.15.0
     registry: local
   - name: docker/docker-credential-helpers@v0.7.0
     registry: local
@@ -74,5 +73,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.53
+  - name: superfly/flyctl@v0.1.54
     registry: local

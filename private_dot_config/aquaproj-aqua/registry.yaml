@@ -10,13 +10,6 @@ packages:
     asset: "certinfo_{{ trimV .Version }}_{{ .OS }}_{{ .Arch }}.tar.gz"
     description: Better x509 info
   - type: github_release
-    repo_owner: cilium
-    repo_name: cilium-cli
-    asset: "cilium-{{ .OS }}-{{ .Arch }}.tar.gz"
-    files:
-      - name: cilium
-    description: CLI to install, manage & troubleshoot Kubernetes clusters running Cilium
-  - type: github_release
     repo_owner: docker
     repo_name: docker-credential-helpers
     asset: "docker-credential-secretservice-{{ .Version }}.{{ .OS }}-{{ .Arch }}"
