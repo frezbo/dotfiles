@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.27.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.28.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -19,7 +19,7 @@ packages:
   - name: wagoodman/dive@v0.11.0
   - name: google/go-containerregistry@v0.15.2
   - name: kubernetes-sigs/cluster-api@v1.4.4
-  - name: pulumi/pulumi@v3.75.0
+  - name: pulumi/pulumi@v3.76.0
   - name: cli/cli@v2.32.0
   - name: sbstp/kubie@v0.20.1
   - name: jqlang/jq@jq-1.6
@@ -40,8 +40,8 @@ packages:
   - name: Versent/saml2aws@v2.36.10
   - name: golang/go@go1.20.6
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.35.1
-  - name: kubernetes/kubectl@v1.27.3
+  - name: twpayne/chezmoi@v2.35.2
+  - name: kubernetes/kubectl@v1.27.4
   - name: helm/helm@v3.12.2
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.25.0
@@ -51,7 +51,7 @@ packages:
   - name: twistedpair/google-cloud-sdk@439.0.0
   - name: wakatime/wakatime-cli@v1.73.1
   - name: topgrade-rs/topgrade@v12.0.0
-  - name: cilium/cilium-cli@v0.15.3
+  - name: cilium/cilium-cli@v0.15.4
   - name: golang/vuln/govulncheck
     version: 9550759
   - name: moul/assh@v2.15.0
@@ -69,9 +69,9 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.43
     registry: local
-  - name: nodejs/node@v20.4.0
+  - name: nodejs/node@v20.5.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.58
+  - name: superfly/flyctl@v0.1.63
     registry: local
