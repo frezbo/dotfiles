@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.29.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.29.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -50,7 +50,7 @@ packages:
   - name: hashicorp/terraform@v1.5.3
   - name: twistedpair/google-cloud-sdk@439.0.0
   - name: wakatime/wakatime-cli@v1.73.1
-  - name: topgrade-rs/topgrade@v12.0.0
+  - name: topgrade-rs/topgrade@v12.0.1
   - name: cilium/cilium-cli@v0.15.4
   - name: golang/vuln/govulncheck
     version: 9550759
