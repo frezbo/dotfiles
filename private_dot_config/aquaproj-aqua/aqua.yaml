@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.31.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.32.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -45,7 +45,7 @@ packages:
   - name: helm/helm@v3.12.2
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.25.0
-  - name: golang/tools/goimports@v0.11.0
+  - name: golang/tools/goimports@v0.11.1
   - name: golangci/golangci-lint@v1.53.3
   - name: hashicorp/terraform@v1.5.4
   - name: twistedpair/google-cloud-sdk@440.0.0
@@ -73,5 +73,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.66
+  - name: superfly/flyctl@v0.1.68
     registry: local
