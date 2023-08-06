@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.32.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.32.2 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -19,9 +19,9 @@ packages:
   - name: wagoodman/dive@v0.11.0
   - name: google/go-containerregistry@v0.16.1
   - name: kubernetes-sigs/cluster-api@v1.5.0
-  - name: pulumi/pulumi@v3.76.1
+  - name: pulumi/pulumi@v3.77.0
   - name: cli/cli@v2.32.1
-  - name: sbstp/kubie@v0.21.0
+  - name: sbstp/kubie@v0.21.1
   - name: jqlang/jq@jq-1.6
   - name: kastenhq/kubestr@v0.4.41
   - name: siderolabs/talos@v1.4.7
@@ -49,7 +49,7 @@ packages:
   - name: golangci/golangci-lint@v1.53.3
   - name: hashicorp/terraform@v1.5.4
   - name: twistedpair/google-cloud-sdk@441.0.0
-  - name: wakatime/wakatime-cli@v1.73.1
+  - name: wakatime/wakatime-cli@v1.73.2
   - name: topgrade-rs/topgrade@v12.0.2
   - name: cilium/cilium-cli@v0.15.5
   - name: golang/vuln/govulncheck
@@ -73,5 +73,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.69
+  - name: superfly/flyctl@v0.1.71
     registry: local
