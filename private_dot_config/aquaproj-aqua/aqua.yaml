@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.35.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.36.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -32,7 +32,7 @@ packages:
   - name: int128/kubelogin@v1.28.0
   - name: FairwindsOps/rbac-lookup@v0.10.1
   - name: koalaman/shellcheck@v0.9.0
-  - name: mikefarah/yq@v4.34.2
+  - name: mikefarah/yq@v4.35.1
   - name: ogham/exa@v0.10.1
   - name: stern/stern@v1.25.0
   - name: FiloSottile/mkcert@v1.4.4
@@ -72,5 +72,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.75
+  - name: superfly/flyctl@v0.1.76
     registry: local
