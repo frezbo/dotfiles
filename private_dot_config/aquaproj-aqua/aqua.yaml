@@ -34,7 +34,7 @@ packages:
   - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.35.1
   - name: ogham/exa@v0.10.1
-  - name: stern/stern@v1.25.0
+  - name: stern/stern@v1.26.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
   - name: Versent/saml2aws@v2.36.10
@@ -46,12 +46,12 @@ packages:
   - name: aws/aws-cli@2.7.16
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.12.0
-  - name: golangci/golangci-lint@v1.54.1
+  - name: golangci/golangci-lint@v1.54.2
   - name: hashicorp/terraform@v1.5.5
   - name: twistedpair/google-cloud-sdk@443.0.0
   - name: wakatime/wakatime-cli@v1.76.0
   - name: topgrade-rs/topgrade@v12.0.2
-  - name: cilium/cilium-cli@v0.15.5
+  - name: cilium/cilium-cli@v0.15.6
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.16.0
   - name: moul/assh@v2.15.0
@@ -73,5 +73,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.80
+  - name: superfly/flyctl@v0.1.81
     registry: local
