@@ -67,6 +67,14 @@ function ave
     aws-vault exec --duration 12h "$argv"
 end
 
+function aws-console
+  set -l login_url (saml2aws console --link)
+
+  set -l encoded_url (string replace -a '&' '%26' $login_url)
+  set -l uri_handler "ext+container:name=Work&url=$encoded_url"
+  echo $uri_handler
+end
+
 function unmeta
   exiftool -all= -overwrite_original "$argv"
 end
@@ -124,7 +132,3 @@ helm completion fish | source
 
 # GitHub cli bash completion
 gh completion -s fish | source
-
-# setup environment variables
-# enable Helm v3 OCI registry support
-set -x HELM_EXPERIMENTAL_OCI 1

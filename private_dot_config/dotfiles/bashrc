@@ -130,7 +130,3 @@ source <(helm completion bash)
 
 # GitHub cli bash completion
 eval "$(gh completion -s bash)"
-
-# setup environment variables
-# enable Helm v3 OCI registry support
-export HELM_EXPERIMENTAL_OCI=1
