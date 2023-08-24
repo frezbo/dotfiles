@@ -72,7 +72,7 @@ function aws-console
 
   set -l encoded_url (string replace -a '&' '%26' $login_url)
   set -l uri_handler "ext+container:name=Work&url=$encoded_url"
-  echo $uri_handler
+  firefox $uri_handler
 end
 
 function unmeta
