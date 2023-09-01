@@ -14,7 +14,7 @@ packages:
   - name: sharkdp/bat@v0.23.0
   - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.3
-  - name: sigstore/cosign@v2.1.1
+  - name: sigstore/cosign@v2.2.0
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.11.0
   - name: google/go-containerregistry@v0.16.1
@@ -51,7 +51,7 @@ packages:
   - name: twistedpair/google-cloud-sdk@444.0.0
   - name: wakatime/wakatime-cli@v1.78.0
   - name: topgrade-rs/topgrade@v12.0.2
-  - name: cilium/cilium-cli@v0.15.6
+  - name: cilium/cilium-cli@v0.15.7
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.16.0
   - name: moul/assh@v2.15.0
@@ -73,5 +73,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.85
+  - name: superfly/flyctl@v0.1.86
     registry: local
