@@ -121,14 +121,5 @@ alias grep="rg"
 alias ls="exa"
 alias cat="bat"
 
-# kubectl bash completion
-kubectl completion fish | source
-
 # talosctl bash completion
 talosctl completion fish | source
-
-# helm bash completion
-helm completion fish | source
-
-# GitHub cli bash completion
-gh completion -s fish | source
