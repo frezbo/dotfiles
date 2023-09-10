@@ -118,7 +118,7 @@ alias gs='git status'
 alias gd='git diff'
 alias gcm='git commit'
 alias grep="rg"
-alias ls="exa"
+alias ls="eza"
 alias cat="bat"
 
 # talosctl bash completion
