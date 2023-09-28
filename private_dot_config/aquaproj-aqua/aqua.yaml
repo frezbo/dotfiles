@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.53.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.54.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -36,12 +36,12 @@ packages:
   - name: stern/stern@v1.26.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
-  - name: Versent/saml2aws@v2.36.11
+  - name: Versent/saml2aws@v2.36.12
   - name: golang/go@go1.21.1
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.40.0
   - name: kubernetes/kubectl@v1.28.2
-  - name: helm/helm@v3.12.3
+  - name: helm/helm@v3.13.0
   - name: aws/aws-cli@2.13.21
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.13.0
