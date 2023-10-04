@@ -23,7 +23,7 @@ alias ssh="assh wrapper ssh --"
 alias kx="kubie ctx"
 alias kn="kubie ns"
 
-alias kleen="sed -i /current-context/d ~/.kube/config"
+alias kleen="rm -f ~/.kube/config"
 
 # fzf
 source /home/frezbo/.config/dotfiles/fzf/key-bindings.fish
