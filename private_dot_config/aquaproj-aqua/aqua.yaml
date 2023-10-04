@@ -12,7 +12,6 @@ registries:
 
 packages:
   - name: sharkdp/bat@v0.23.0
-  - name: ogham/dog@v0.1.0
   - name: direnv/direnv@v2.32.3
   - name: sigstore/cosign@v2.2.0
   - name: harness/drone-cli@v1.7.0
