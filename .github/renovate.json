@@ -19,6 +19,9 @@
             "matchPackagePatterns": [
                 "*"
             ],
+	    "matchDatasources": [
+                "*"
+	    ],
             "matchUpdateTypes": [
                 "major",
                 "minor",
