@@ -49,7 +49,7 @@ packages:
   - name: twistedpair/google-cloud-sdk@453.0.0
   - name: wakatime/wakatime-cli@v1.86.5
   - name: topgrade-rs/topgrade@v13.0.0
-  - name: cilium/cilium-cli@v0.15.11
+  - name: cilium/cilium-cli@v0.15.12
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.16.0
   - name: moul/assh@v2.16.0
