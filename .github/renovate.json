@@ -19,20 +19,8 @@
             "matchPackagePatterns": [
                 "*"
             ],
-	    "matchDatasources": [
-                "*"
-	    ],
             "matchUpdateTypes": [
-                "major",
-                "minor",
-                "patch",
-                "pin",
-                "pinDigest",
-                "digest",
-                "lockFileMaintenance",
-                "rollback",
-                "bump",
-                "replacement"
+                "*"
             ],
             "groupName": "releases"
         }
