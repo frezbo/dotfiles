@@ -41,7 +41,7 @@ packages:
   - name: twpayne/chezmoi@v2.40.4
   - name: kubernetes/kubectl@v1.28.3
   - name: helm/helm@v3.13.1
-  - name: aws/aws-cli@2.13.31
+  - name: aws/aws-cli@2.13.32
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.14.0
   - name: golangci/golangci-lint@v1.55.1
