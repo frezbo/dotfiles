@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.79.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.80.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
