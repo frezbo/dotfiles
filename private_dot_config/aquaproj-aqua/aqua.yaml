@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.80.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.80.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -26,7 +26,7 @@ packages:
   - name: siderolabs/talos@v1.5.4
   - name: junegunn/fzf@0.43.0
   - name: BurntSushi/ripgrep@13.0.0
-  - name: aquasecurity/trivy@v0.46.1
+  - name: aquasecurity/trivy@v0.47.0
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
@@ -49,7 +49,7 @@ packages:
   - name: twistedpair/google-cloud-sdk@453.0.0
   - name: wakatime/wakatime-cli@v1.86.5
   - name: topgrade-rs/topgrade@v13.0.0
-  - name: cilium/cilium-cli@v0.15.12
+  - name: cilium/cilium-cli@v0.15.13
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.16.0
   - name: moul/assh@v2.16.0
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.117
+  - name: superfly/flyctl@v0.1.118
     registry: local
