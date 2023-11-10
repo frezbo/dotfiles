@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.80.2 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.82.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -23,7 +23,7 @@ packages:
   - name: sbstp/kubie@v0.22.0
   - name: jqlang/jq@jq-1.7
   - name: kastenhq/kubestr@v0.4.41
-  - name: siderolabs/talos@v1.5.4
+  - name: siderolabs/talos@v1.5.5
   - name: junegunn/fzf@0.43.0
   - name: BurntSushi/ripgrep@13.0.0
   - name: aquasecurity/trivy@v0.47.0
@@ -31,7 +31,7 @@ packages:
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.35.2
-  - name: eza-community/eza@v0.15.2
+  - name: eza-community/eza@v0.15.3
   - name: stern/stern@v1.26.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.119
+  - name: superfly/flyctl@v0.1.121
     registry: local
