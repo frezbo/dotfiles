@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.89.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.92.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -30,7 +30,7 @@ packages:
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
-  - name: mikefarah/yq@v4.35.2
+  - name: mikefarah/yq@v4.40.2
   - name: eza-community/eza@v0.16.0
   - name: stern/stern@v1.27.0
   - name: FiloSottile/mkcert@v1.4.4
