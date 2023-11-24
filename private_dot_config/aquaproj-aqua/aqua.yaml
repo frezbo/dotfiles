@@ -30,8 +30,8 @@ packages:
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
-  - name: mikefarah/yq@v4.40.2
-  - name: eza-community/eza@v0.16.0
+  - name: mikefarah/yq@v4.40.3
+  - name: eza-community/eza@v0.16.1
   - name: stern/stern@v1.27.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
@@ -41,7 +41,7 @@ packages:
   - name: twpayne/chezmoi@v2.41.0
   - name: kubernetes/kubectl@v1.28.4
   - name: helm/helm@v3.13.2
-  - name: aws/aws-cli@2.13.37
+  - name: aws/aws-cli@2.13.38
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.15.0
   - name: golangci/golangci-lint@v1.55.2
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.127
+  - name: superfly/flyctl@v0.1.128
     registry: local
