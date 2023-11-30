@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.93.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.94.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -16,7 +16,7 @@ packages:
   - name: sigstore/cosign@v2.2.1
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.11.0
-  - name: google/go-containerregistry@v0.16.1
+  - name: google/go-containerregistry@v0.17.0
   - name: kubernetes-sigs/cluster-api@v1.5.3
   - name: pulumi/pulumi@v3.94.2
   - name: cli/cli@v2.39.2
@@ -31,7 +31,7 @@ packages:
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.40.3
-  - name: eza-community/eza@v0.16.1
+  - name: eza-community/eza@v0.16.2
   - name: stern/stern@v1.27.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
@@ -41,7 +41,7 @@ packages:
   - name: twpayne/chezmoi@v2.42.1
   - name: kubernetes/kubectl@v1.28.4
   - name: helm/helm@v3.13.2
-  - name: aws/aws-cli@2.14.2
+  - name: aws/aws-cli@2.14.3
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.16.0
   - name: golangci/golangci-lint@v1.55.2
