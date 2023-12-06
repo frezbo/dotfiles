@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.95.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.97.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -13,11 +13,11 @@ registries:
 packages:
   - name: sharkdp/bat@v0.24.0
   - name: direnv/direnv@v2.33.0
-  - name: sigstore/cosign@v2.2.1
+  - name: sigstore/cosign@v2.2.2
   - name: harness/drone-cli@v1.7.0
   - name: wagoodman/dive@v0.11.0
   - name: google/go-containerregistry@v0.17.0
-  - name: kubernetes-sigs/cluster-api@v1.5.3
+  - name: kubernetes-sigs/cluster-api@v1.6.0
   - name: pulumi/pulumi@v3.95.0
   - name: cli/cli@v2.39.2
   - name: sbstp/kubie@v0.22.0
@@ -26,7 +26,7 @@ packages:
   - name: siderolabs/talos@v1.5.5
   - name: junegunn/fzf@0.44.1
   - name: BurntSushi/ripgrep@14.0.3
-  - name: aquasecurity/trivy@v0.47.0
+  - name: aquasecurity/trivy@v0.48.0
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
@@ -36,7 +36,7 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.16.0
   - name: Versent/saml2aws@v2.36.12
-  - name: golang/go@go1.21.4
+  - name: golang/go@go1.21.5
   - name: siderolabs/theila@v0.2.1
   - name: twpayne/chezmoi@v2.42.2
   - name: kubernetes/kubectl@v1.28.4
@@ -46,10 +46,10 @@ packages:
   - name: golang/tools/goimports@v0.16.0
   - name: golangci/golangci-lint@v1.55.2
   - name: hashicorp/terraform@v1.6.5
-  - name: twistedpair/google-cloud-sdk@455.0.0
+  - name: twistedpair/google-cloud-sdk@456.0.0
   - name: wakatime/wakatime-cli@v1.86.5
   - name: topgrade-rs/topgrade@v13.0.0
-  - name: cilium/cilium-cli@v0.15.16
+  - name: cilium/cilium-cli@v0.15.17
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.16.0
   - name: moul/assh@v2.16.0
@@ -67,7 +67,7 @@ packages:
     registry: local
   - name: pulumi/pulumictl@v0.0.45
     registry: local
-  - name: nodejs/node@v21.3.0
+  - name: nodejs/node@v21.4.0
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
