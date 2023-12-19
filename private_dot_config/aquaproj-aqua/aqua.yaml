@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.104.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.105.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -38,7 +38,7 @@ packages:
   - name: Versent/saml2aws@v2.36.13
   - name: golang/go@go1.21.5
   - name: siderolabs/theila@v0.2.1
-  - name: twpayne/chezmoi@v2.42.2
+  - name: twpayne/chezmoi@v2.42.3
   - name: kubernetes/kubectl@v1.29.0
   - name: helm/helm@v3.13.3
   - name: aws/aws-cli@2.15.2
