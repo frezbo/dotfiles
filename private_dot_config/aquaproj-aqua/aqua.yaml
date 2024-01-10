@@ -19,7 +19,7 @@ packages:
   - name: google/go-containerregistry@v0.17.0
   - name: kubernetes-sigs/cluster-api@v1.6.0
   - name: pulumi/pulumi@v3.100.0
-  - name: cli/cli@v2.40.1
+  - name: cli/cli@v2.41.0
   - name: sbstp/kubie@v0.23.0
   - name: jqlang/jq@jq-1.7.1
   - name: kastenhq/kubestr@v0.4.41
@@ -32,7 +32,7 @@ packages:
   - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.40.5
   - name: eza-community/eza@v0.17.0
-  - name: stern/stern@v1.27.0
+  - name: stern/stern@v1.28.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.17.1
   - name: Versent/saml2aws@v2.36.13
@@ -47,7 +47,7 @@ packages:
   - name: golangci/golangci-lint@v1.55.2
   - name: hashicorp/terraform@v1.6.6
   - name: twistedpair/google-cloud-sdk@458.0.1
-  - name: wakatime/wakatime-cli@v1.88.0
+  - name: wakatime/wakatime-cli@v1.88.1
   - name: topgrade-rs/topgrade@v13.0.0
   - name: cilium/cilium-cli@v0.15.19
   - name: golang/vuln/govulncheck@v1.0.0
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.137
+  - name: superfly/flyctl@v0.1.139
     registry: local
