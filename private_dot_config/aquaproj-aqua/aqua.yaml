@@ -29,7 +29,7 @@ packages:
   - name: aquasecurity/trivy@v0.48.2
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
-  - name: koalaman/she1.1heck@v0.9.0
+  - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.40.5
   - name: eza-community/eza@v0.17.0
   - name: stern/stern@v1.28.0
