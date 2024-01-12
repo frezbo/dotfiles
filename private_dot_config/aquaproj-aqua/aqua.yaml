@@ -19,19 +19,19 @@ packages:
   - name: google/go-containerregistry@v0.17.0
   - name: kubernetes-sigs/cluster-api@v1.6.0
   - name: pulumi/pulumi@v3.101.1
-  - name: cli/cli@v2.41.0
+  - name: cli/cli@v2.42.0
   - name: sbstp/kubie@v0.23.0
   - name: jqlang/jq@jq-1.7.1
   - name: kastenhq/kubestr@v0.4.41
   - name: siderolabs/talos@v1.6.1
   - name: junegunn/fzf@0.45.0
   - name: BurntSushi/ripgrep@14.1.0
-  - name: aquasecurity/trivy@v0.48.2
+  - name: aquasecurity/trivy@v0.48.3
   - name: fullstorydev/grpcurl@v1.8.9
   - name: int128/kubelogin@v1.28.0
   - name: koalaman/shellcheck@v0.9.0
   - name: mikefarah/yq@v4.40.5
-  - name: eza-community/eza@v0.17.0
+  - name: eza-community/eza@v0.17.1
   - name: stern/stern@v1.28.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.17.1
@@ -43,7 +43,7 @@ packages:
   - name: helm/helm@v3.13.3
   - name: aws/aws-cli@2.15.9
   - name: dundee/gdu@v5.25.0
-  - name: golang/tools/goimports@v0.16.1
+  - name: golang/tools/goimports@v0.17.0
   - name: golangci/golangci-lint@v1.55.2
   - name: hashicorp/terraform@v1.6.6
   - name: twistedpair/google-cloud-sdk@458.0.1
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.139
+  - name: superfly/flyctl@v0.1.141
     registry: local
