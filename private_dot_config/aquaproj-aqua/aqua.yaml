@@ -48,7 +48,7 @@ packages:
   - name: hashicorp/terraform@v1.7.0
   - name: twistedpair/google-cloud-sdk@458.0.1
   - name: wakatime/wakatime-cli@v1.88.7
-  - name: topgrade-rs/topgrade@v13.0.0
+  - name: topgrade-rs/topgrade@v14.0.0
   - name: cilium/cilium-cli@v0.15.20
   - name: golang/vuln/govulncheck@v1.0.0
   - name: terraform-docs/terraform-docs@v0.17.0
