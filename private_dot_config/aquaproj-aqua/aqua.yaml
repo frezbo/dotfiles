@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.122.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.123.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -14,17 +14,17 @@ packages:
   - name: sharkdp/bat@v0.24.0
   - name: direnv/direnv@v2.33.0
   - name: sigstore/cosign@v2.2.2
-  - name: harness/drone-cli@v1.7.0
+  - name: harness/drone-cli@v1.8.0
   - name: wagoodman/dive@v0.11.0
   - name: google/go-containerregistry@v0.18.0
   - name: kubernetes-sigs/cluster-api@v1.6.1
-  - name: pulumi/pulumi@v3.102.0
+  - name: pulumi/pulumi@v3.103.0
   - name: cli/cli@v2.42.1
   - name: sbstp/kubie@v0.23.0
   - name: jqlang/jq@jq-1.7.1
   - name: kastenhq/kubestr@v0.4.41
-  - name: siderolabs/talos@v1.6.2
-  - name: junegunn/fzf@0.45.0
+  - name: siderolabs/talos@v1.6.3
+  - name: junegunn/fzf@0.46.0
   - name: BurntSushi/ripgrep@14.1.0
   - name: aquasecurity/trivy@v0.48.3
   - name: fullstorydev/grpcurl@v1.8.9
@@ -41,11 +41,11 @@ packages:
   - name: twpayne/chezmoi@v2.45.0
   - name: kubernetes/kubectl@v1.29.1
   - name: helm/helm@v3.14.0
-  - name: aws/aws-cli@2.15.12
+  - name: aws/aws-cli@2.15.14
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.17.0
   - name: golangci/golangci-lint@v1.55.2
-  - name: hashicorp/terraform@v1.7.0
+  - name: hashicorp/terraform@v1.7.1
   - name: twistedpair/google-cloud-sdk@458.0.1
   - name: wakatime/wakatime-cli@v1.88.7
   - name: topgrade-rs/topgrade@v14.0.0
@@ -71,5 +71,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.5
     registry: local
-  - name: superfly/flyctl@v0.1.143
+  - name: superfly/flyctl@v0.1.145
     registry: local
