@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.128.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.128.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -41,13 +41,13 @@ packages:
   - name: twpayne/chezmoi@v2.46.0
   - name: kubernetes/kubectl@v1.29.1
   - name: helm/helm@v3.14.0
-  - name: aws/aws-cli@2.15.17
+  - name: aws/aws-cli@2.15.18
   - name: dundee/gdu@v5.25.0
   - name: golang/tools/goimports@v0.17.0
-  - name: golangci/golangci-lint@v1.55.2
-  - name: hashicorp/terraform@v1.7.2
+  - name: golangci/golangci-lint@v1.56.0
+  - name: hashicorp/terraform@v1.7.3
   - name: twistedpair/google-cloud-sdk@458.0.1
-  - name: wakatime/wakatime-cli@v1.89.1
+  - name: wakatime/wakatime-cli@v1.90.0
   - name: topgrade-rs/topgrade@v14.0.1
   - name: cilium/cilium-cli@v0.15.22
   - name: golang/vuln/govulncheck@v1.0.0
