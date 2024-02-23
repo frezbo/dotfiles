@@ -17,6 +17,7 @@ rebase=true
 
 [push]
 autoSetupRemote=true
+gpgSign=if-asked
 
 [rebase]
 autoStash=true
@@ -24,3 +25,6 @@ autoStash=true
 [core]
 editor=vim
 excludesfile=/home/frezbo/.gitignore
+
+[rerere]
+enabled=true
