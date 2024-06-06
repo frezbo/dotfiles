@@ -5,7 +5,7 @@
         ":dependencyDashboard",
         ":gitSignOff",
         ":semanticCommitScopeDisabled",
-        "github>aquaproj/aqua-renovate-config#2.3.0"
+        "github>aquaproj/aqua-renovate-config#2.3.1"
     ],
     "prHeader": "Update Request | Renovate Bot",
     "prHourlyLimit": 0,
