@@ -15,7 +15,7 @@ packages:
   - name: sigstore/cosign@v2.2.4
   - name: google/go-containerregistry@v0.19.2
   - name: cli/cli@v2.52.0
-  - name: sbstp/kubie@v0.23.0
+  - name: sbstp/kubie@v0.23.1
   - name: jqlang/jq@jq-1.7.1
   - name: siderolabs/talos@v1.7.5
   - name: junegunn/fzf@0.53.0
@@ -23,7 +23,7 @@ packages:
   - name: int128/kubelogin@v1.28.1
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.2
-  - name: eza-community/eza@v0.18.20
+  - name: eza-community/eza@v0.18.21
   - name: stern/stern@v1.30.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.19.0
@@ -38,7 +38,7 @@ packages:
   - name: hashicorp/terraform@v1.9.0
   - name: twistedpair/google-cloud-sdk@482.0.0
   - name: wakatime/wakatime-cli@v1.93.0
-  - name: topgrade-rs/topgrade@v14.0.1
+  - name: topgrade-rs/topgrade@v15.0.0
   - name: cilium/cilium-cli@v0.16.11
   - name: golang/vuln/govulncheck@v1.1.2
   - name: terraform-docs/terraform-docs@v0.18.0
