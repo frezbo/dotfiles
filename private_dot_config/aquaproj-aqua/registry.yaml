@@ -67,5 +67,4 @@ packages:
       linux: Linux
       windows: Windows
       darwin: macOS
-      amd64: x86_64
     description: Command line tools for fly.io services
