@@ -14,7 +14,7 @@ packages:
   - name: direnv/direnv@v2.34.0
   - name: sigstore/cosign@v2.2.4
   - name: google/go-containerregistry@v0.20.1
-  - name: cli/cli@v2.52.0
+  - name: cli/cli@v2.53.0
   - name: sbstp/kubie@v0.23.1
   - name: jqlang/jq@jq-1.7.1
   - name: siderolabs/talos@v1.7.5
@@ -23,14 +23,14 @@ packages:
   - name: int128/kubelogin@v1.28.1
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.2
-  - name: eza-community/eza@v0.18.21
+  - name: eza-community/eza@v0.18.22
   - name: stern/stern@v1.30.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.19.0
   - name: Versent/saml2aws@v2.36.16
   - name: golang/go@go1.22.5
   - name: twpayne/chezmoi@v2.51.0
-  - name: kubernetes/kubectl@v1.30.2
+  - name: kubernetes/kubectl@v1.30.3
   - name: helm/helm@v3.15.3
   - name: aws/aws-cli@2.17.13
   - name: golang/tools/goimports@v0.23.0
@@ -58,5 +58,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.6
     registry: local
-  - name: superfly/flyctl@v0.2.90
+  - name: superfly/flyctl@v0.2.91
     registry: local
