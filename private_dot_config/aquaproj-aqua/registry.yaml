@@ -65,6 +65,7 @@ packages:
     asset: "flyctl_{{ trimV .Version }}_Linux_{{ .Arch }}.tar.gz"
     replacements:
       linux: Linux
+      amd64: x86_64
       windows: Windows
       darwin: macOS
     description: Command line tools for fly.io services
