@@ -1,22 +1,5 @@
 actions:
   - action: directory.create
-    path: {{ user.home_dir }}/.local/bin
-  - action: git.clone
-    repository: https://github.com/frezbo/dotfiles.git
-    directory: {{ user.data_dir }}/chezmoi
-  - action: file.copy
-    from: {{ user.data_dir }}/chezmoi/private_dot_config/chezmoi/chezmoi.toml
-    to: {{ user.home_dir }}/.config/chezmoi/chezmoi.toml
-  - action: file.copy
-    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/aqua.yaml
-    to: {{ user.home_dir }}/.config/aquaproj-aqua/aqua.yaml
-  - action: file.copy
-    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/registry.yaml
-    to: {{ user.home_dir }}/.config/aquaproj-aqua/registry.yaml
-  - action: file.copy
-    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/aqua-policy.yaml
-    to: {{ user.config_dir }}/aquaproj-aqua/aqua-policy.yaml
-  - action: directory.create
     path: {{ user.data_dir }}/aquaproj-aqua/archives
   - action: directory.create
     path: {{ user.data_dir }}/aquaproj-aqua/bin
