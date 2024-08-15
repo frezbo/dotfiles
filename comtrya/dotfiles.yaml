@@ -1,0 +1,84 @@
+actions:
+  - action: directory.create
+    path: {{ user.home_dir }}/.local/bin
+  - action: git.clone
+    repository: https://github.com/frezbo/dotfiles.git
+    directory: {{ user.data_dir }}/chezmoi
+  - action: file.copy
+    from: {{ user.data_dir }}/chezmoi/private_dot_config/chezmoi/chezmoi.toml
+    to: {{ user.home_dir }}/.config/chezmoi/chezmoi.toml
+  - action: file.copy
+    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/aqua.yaml
+    to: {{ user.home_dir }}/.config/aquaproj-aqua/aqua.yaml
+  - action: file.copy
+    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/registry.yaml
+    to: {{ user.home_dir }}/.config/aquaproj-aqua/registry.yaml
+  - action: file.copy
+    from: {{ user.data_dir }}/chezmoi/private_dot_config/aquaproj-aqua/aqua-policy.yaml
+    to: {{ user.config_dir }}/aquaproj-aqua/aqua-policy.yaml
+  - action: directory.create
+    path: {{ user.data_dir }}/aquaproj-aqua/archives
+  - action: directory.create
+    path: {{ user.data_dir }}/aquaproj-aqua/bin
+  - action: binary.github
+    name: aqua.tar.gz
+    directory: {{ user.data_dir }}/aquaproj-aqua/archives
+    repository: aquaproj/aqua
+  - action: command.run
+    command: tar
+    args:
+      - xf
+      - {{ user.data_dir }}/aquaproj-aqua/archives/aqua.tar.gz
+      - -C
+      - {{ user.data_dir }}/aquaproj-aqua/bin
+      - aqua
+  - action: command.run
+    command: {{ user.data_dir }}/aquaproj-aqua/bin/aqua
+    args:
+      - --config
+      - {{ user.config_dir }}/aquaproj-aqua/aqua.yaml
+      - install
+      - --all
+      - --only-link
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/visible-name
+      - 'Default'
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/use-custom-command
+      - "true"
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/custom-command
+      - '/usr/bin/fish'
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/use-system-font
+      - "false"
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/font
+      - 'Fira Code weight=453 12'
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/background-transparency-percent
+      - "15"
+  - action: command.run
+    command: dconf
+    args:
+      - write
+      - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/scrollback-unlimited
+      - "true"

@@ -1,11 +1,6 @@
 # shellcheck shell=bash
 
-# vte completion
-# https://gnunn1.github.io/tilix-web/manual/vteconfig/
-source /etc/profile.d/vte-2.91.sh
-
 # use starship prompt
-
 function set_win_title() {
     echo -ne "\033]0; ${USER}@${HOSTNAME}:${PWD//${HOME}/\~} \007"
 }
@@ -32,14 +27,10 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # fzf
-source /home/frezbo/.config/dotfiles/fzf/fzf.bash
+eval "$(fzf --bash)"
 
 # set default EDITOR
 export EDITOR="vim"
-
-# don't use gnome keyring for ssh,
-# it doesn't prompt for ssh keys need PIN nad touch from hardware key
-export SSH_AUTH_SOCK="/run/user/1000/keyring/.ssh"
 
 # Golang
 export GOPATH="/home/frezbo/work/golang"
@@ -127,6 +118,3 @@ source <(talosctl completion bash)
 
 # helm bash completion
 source <(helm completion bash)
-
-# GitHub cli bash completion
-eval "$(gh completion -s bash)"

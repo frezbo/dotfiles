@@ -1,0 +1,39 @@
+actions:
+- action: package.install
+  list:
+    - tilix
+    - fish
+    - fonts-firacode
+    - xclip
+   # - kazam
+    - vim
+    - tree
+    - picocom
+    - podman
+    #- dnsutils
+    # gpg
+    #- scdaemon
+    # fingerprint
+    #- libpam-fprintd
+    # tlp
+    #- tlp
+    #- acpi-call-dkms
+    #- ffmpeg
+    # qemu
+    #- qemu
+    #- qemu-system
+    #- qemu-user-static
+    #- socat
+    #- swtpm
+    # cross-compile
+    #- gcc-aarch64-linux-gnu
+    #- g++-aarch64-linux-gnu
+    #- binutils-aarch64-linux-gnu
+    # dev stuff
+    #- libxml2-utils
+    # world time
+    #- gnome-clocks
+    #- pax-utils
+    #- ipmitool
+    #- rpi-imager
+    #- diffoscope-minimal

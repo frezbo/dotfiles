@@ -1,0 +1,12 @@
+actions:
+  - action: package.repository
+    name: https://download.docker.com/linux/fedora/docker-ce.repo 
+  - action: package.repository
+    name: https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+  - action: package.repository
+    name: https://packages.microsoft.com/yumrepos/vscode/config.repo
+  - action: package.install
+    list:
+      - docker-ce
+      - tailscale
+      - code

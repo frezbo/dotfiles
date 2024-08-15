@@ -26,18 +26,10 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # fzf
-source /home/frezbo/.config/dotfiles/fzf/key-bindings.fish
-
-function fish_user_key_bindings
-  fzf_key_bindings
-end
+fzf --fish | source
 
 # set default EDITOR
 set -x EDITOR "vim"
-
-# don't use gnome keyring for ssh,
-# it doesn't prompt for ssh keys need PIN nad touch from hardware key
-set -x SSH_AUTH_SOCK "/run/user/1000/keyring/.ssh"
 
 # Golang
 set -x GOPATH "/home/frezbo/work/golang"
