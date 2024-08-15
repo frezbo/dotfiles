@@ -26,7 +26,7 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # fzf
-source /home/frezbo/.config/dotfiles/fzf/key-bindings.fish
+fzf --fish | source
 
 function fish_user_key_bindings
   fzf_key_bindings

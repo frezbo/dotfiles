@@ -32,7 +32,7 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # fzf
-source /home/frezbo/.config/dotfiles/fzf/fzf.bash
+eval "$(fzf --bash)"
 
 # set default EDITOR
 export EDITOR="vim"
