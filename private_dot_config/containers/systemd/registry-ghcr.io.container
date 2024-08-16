@@ -1,0 +1,9 @@
+[Install]
+WantedBy=default.target
+
+[Container]
+Image=docker.io/registry:2
+ContainerName=registry-ghcr.io
+Volume=registry-ghcr.io.volume:/var/lib/registry
+Environment=REGISTRY_PROXY_REMOTEURL=https://ghcr.io
+PublishPort=5003:5000

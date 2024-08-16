@@ -1,0 +1,9 @@
+[Install]
+WantedBy=default.target
+
+[Container]
+Image=docker.io/registry:2
+ContainerName=registry-gcr.io
+Volume=registry-gcr.io.volume:/var/lib/registry
+Environment=REGISTRY_PROXY_REMOTEURL=https://gcr.io
+PublishPort=5002:5000

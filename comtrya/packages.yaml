@@ -10,6 +10,8 @@ actions:
     - tree
     - picocom
     - podman
+    - make
+    - qemu
     #- dnsutils
     # gpg
     #- scdaemon

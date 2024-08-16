@@ -1,0 +1,9 @@
+[Install]
+WantedBy=default.target
+
+[Container]
+Image=docker.io/registry:2
+ContainerName=registry-registry.k8s.io
+Volume=registry-registry.k8s.io.volume:/var/lib/registry
+Environment=REGISTRY_PROXY_REMOTEURL=https://registry.k8s.io
+PublishPort=5001:5000
