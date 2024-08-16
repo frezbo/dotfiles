@@ -1,41 +1,51 @@
 actions:
-- action: package.install
-  list:
-    - tilix
-    - fish
-    - fira-code-fonts
-    - xclip
-   # - kazam
-    - vim
-    - tree
-    - picocom
-    - podman
-    - make
-    - qemu
-    #- dnsutils
-    # gpg
-    #- scdaemon
-    # fingerprint
-    #- libpam-fprintd
-    # tlp
-    #- tlp
-    #- acpi-call-dkms
-    #- ffmpeg
-    # qemu
-    #- qemu
-    #- qemu-system
-    #- qemu-user-static
-    #- socat
-    #- swtpm
-    # cross-compile
-    #- gcc-aarch64-linux-gnu
-    #- g++-aarch64-linux-gnu
-    #- binutils-aarch64-linux-gnu
-    # dev stuff
-    #- libxml2-utils
-    # world time
-    #- gnome-clocks
-    #- pax-utils
-    #- ipmitool
-    #- rpi-imager
-    #- diffoscope-minimal
+  - action: package.repository
+    name: https://download.docker.com/linux/fedora/docker-ce.repo
+  - action: package.repository
+    name: https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+  - action: package.repository
+    name: https://packages.microsoft.com/yumrepos/vscode/config.repo
+  - action: package.install
+    list:
+      - git
+      - tilix
+      - fish
+      - fira-code-fonts
+      - xclip
+     # - kazam
+      - vim
+      - tree
+      - picocom
+      - podman
+      - make
+      - qemu
+      - docker-ce
+      - tailscale
+      - code
+      #- dnsutils
+      # gpg
+      #- scdaemon
+      # fingerprint
+      #- libpam-fprintd
+      # tlp
+      #- tlp
+      #- acpi-call-dkms
+      #- ffmpeg
+      # qemu
+      #- qemu
+      #- qemu-system
+      #- qemu-user-static
+      #- socat
+      #- swtpm
+      # cross-compile
+      #- gcc-aarch64-linux-gnu
+      #- g++-aarch64-linux-gnu
+      #- binutils-aarch64-linux-gnu
+      # dev stuff
+      #- libxml2-utils
+      # world time
+      #- gnome-clocks
+      #- pax-utils
+      #- ipmitool
+      #- rpi-imager
+      #- diffoscope-minimal

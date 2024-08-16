@@ -1,10 +1,12 @@
+depends:
+  - packages
 actions:
   - action: command.run
     command: dconf
     args:
       - write
       - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/visible-name
-      - 'Default'
+      - "'Default'"
   - action: command.run
     command: dconf
     args:
@@ -16,13 +18,13 @@ actions:
     args:
       - write
       - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/custom-command
-      - '/usr/bin/fish'
+      - "'/usr/bin/fish'"
   - action: command.run
     command: dconf
     args:
       - write
       - /com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d/use-system-font
-#      - "false"
+      - "false"
   - action: command.run
     command: dconf
     args:

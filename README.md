@@ -4,7 +4,9 @@ Use chezmoi, renovate and aqua to keep things updated
 
 ## Setup
 
-Start by installing `chezmoi` binary somewhere in the `PATH` and run:
+Start by installing `chezmoi` and `comtrya` binary somewhere in the `PATH` and also the `git` package.
+
+Then run:
 
 `chezmoi init frezbo --branch fedora`
 
@@ -12,7 +14,13 @@ Then plug in the YubiKey and run `gpg --card-status` and retrieve the key via `g
 
 Then retrieve the resident ssh keys by running `ssh-keygen -K`, move the generated files to `~/.ssh`.
 
-Then run `chezmoi cd` followed by `chezmoi apply ~/.config/chezmoi/chezmoi.toml` followed by `chezmoi apply`
+Then run `chezmoi cd` followed by
+
+```bash
+chezmoi apply ~/.config/chezmoi
+chezmoi apply ~/.config/chezmoi/chezmoi.toml
+chezmoi apply
+```
 
 Also run `git config remote.origin.pushurl git@github.com:frezbo/dotfiles.git` so we use ssh for pushes.
 
@@ -20,10 +28,6 @@ This should setup all the required dot files.
 
 Now we can proceed to installing `aqua` binary.
 Change into `comtrya` directory and run `comtrya apply -m dotfiles`
-
-Then run the following command to create all aqua symlinks:
-
-`aqua -c ~/.config/aquaproj-aqua/aqua.yaml install -l`
 
 Now log out and login so that new dotfiles gets processed.
 
