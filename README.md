@@ -8,7 +8,7 @@ Start by installing `chezmoi` and `comtrya` binary somewhere in the `PATH` and a
 
 Then run:
 
-`chezmoi init frezbo --branch fedora`
+`chezmoi init frezbo`
 
 Then plug in the YubiKey and run `gpg --card-status` and retrieve the key via `gpg --card-edit` followed by `fetch`.
 
