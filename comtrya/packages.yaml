@@ -23,6 +23,7 @@ actions:
       - tailscale
       - code
       - zstd
+      - @virtualization
       #- dnsutils
       # gpg
       #- scdaemon
