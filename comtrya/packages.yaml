@@ -22,6 +22,7 @@ actions:
       - docker-ce
       - tailscale
       - code
+      - zstd
       #- dnsutils
       # gpg
       #- scdaemon
