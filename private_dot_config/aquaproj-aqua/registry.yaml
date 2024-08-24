@@ -38,20 +38,6 @@ packages:
     repo_name: pulumictl
     asset: "pulumictl-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
     description: A swiss army knife for Pulumi development
-  - name: nodejs/node
-    type: http
-    url: "https://nodejs.org/download/release/{{ .Version }}/node-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
-    replacements:
-      amd64: x64
-    files:
-      - name: node
-        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/bin/node"
-      - name: corepack
-        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/corepack/dist/corepack.js"
-      - name: npm
-        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npm-cli.js"
-      - name: npx
-        src: "node-{{ .Version }}-{{ .OS }}-{{ .Arch }}/lib/node_modules/npm/bin/npx-cli.js"
   - type: go_install
     name: github.com/siderolabs/deep-copy
     path: github.com/siderolabs/deep-copy
