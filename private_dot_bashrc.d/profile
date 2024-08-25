@@ -4,7 +4,4 @@ PATH="${PATH}:/home/frezbo/work/golang/bin"
 # aqua-proj
 PATH="/home/frezbo/.local/share/aquaproj-aqua/bin:${PATH}"
 
-# node
-PATH="/home/frezbo/.local/bin/node/bin:${PATH}"
-
 export PATH
