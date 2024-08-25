@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.216.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.217.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -42,7 +42,7 @@ packages:
   - name: getsops/sops@v3.9.0
   - name: FiloSottile/age@v1.2.0
   - name: 99designs/aws-vault@v7.2.0
-  - name: comtrya/comtrya@v0.8.8
+  - name: comtrya/comtrya@v0.8.9
   - name: nodejs/node@v22.7.0
   - name: moul/assh@v2.16.0
     registry: local

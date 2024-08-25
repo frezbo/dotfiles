@@ -23,7 +23,7 @@ gpgSign=if-asked
 autoStash=true
 
 [core]
-editor=vim
+editor="vim +1"
 excludesfile=/home/frezbo/.gitignore
 
 [rerere]
