@@ -6,6 +6,7 @@ After=network-online.target
 
 [Container]
 Image=docker.io/registry:2
+AutoUpdate=local
 ContainerName=registry-local
 Volume=registry-local.volume:/var/lib/registry
 PublishPort=5010:5000

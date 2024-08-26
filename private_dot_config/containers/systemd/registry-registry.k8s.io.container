@@ -6,6 +6,7 @@ After=network-online.target
 
 [Container]
 Image=docker.io/registry:2
+AutoUpdate=local
 ContainerName=registry-registry.k8s.io
 Volume=registry-registry.k8s.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://registry.k8s.io

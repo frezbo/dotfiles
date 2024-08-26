@@ -6,6 +6,7 @@ After=network-online.target
 
 [Container]
 Image=docker.io/registry:2
+AutoUpdate=local
 ContainerName=registry-ghcr.io
 Volume=registry-ghcr.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://ghcr.io
