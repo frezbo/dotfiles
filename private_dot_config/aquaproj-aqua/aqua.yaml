@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.218.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.219.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -22,7 +22,7 @@ packages:
   - name: int128/kubelogin@v1.29.0
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.3
-  - name: eza-community/eza@v0.19.0
+  - name: eza-community/eza@v0.19.1
   - name: stern/stern@v1.30.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.20.1
@@ -30,7 +30,7 @@ packages:
   - name: twpayne/chezmoi@v2.52.1
   - name: kubernetes/kubectl@v1.31.0
   - name: helm/helm@v3.15.4
-  - name: aws/aws-cli@2.17.39
+  - name: aws/aws-cli@2.17.40
   - name: golang/tools/goimports@v0.24.0
   - name: golangci/golangci-lint@v1.60.3
   - name: hashicorp/terraform@v1.9.5
@@ -56,5 +56,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.6
     registry: local
-  - name: superfly/flyctl@v0.2.122
+  - name: superfly/flyctl@v0.2.123
     registry: local
