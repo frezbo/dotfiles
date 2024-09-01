@@ -24,6 +24,7 @@ actions:
       - code
       - zstd
       - @virtualization
+      - kdepim-addons
       #- dnsutils
       # gpg
       #- scdaemon
