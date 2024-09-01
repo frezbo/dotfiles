@@ -56,15 +56,15 @@ end
 
 # aws-vault helpers
 function ave
-    aws-vault exec --duration 12h "$argv"
+    aws-vault exec --duration 12h $argv fish
 end
 
-function aws-console
-  set -l login_url (saml2aws console --skip-prompt --prompter=pinentry --link)
+function avl
+    set -l login_url (aws-vault login --duration 12h --stdout $argv)
 
-  set -l encoded_url (string replace -a '&' '%26' $login_url)
-  set -l uri_handler "ext+container:name=Work&url=$encoded_url"
-  firefox $uri_handler
+    set -l encoded_url (string replace -a '&' '%26' $login_url)
+    set -l uri_handler "ext+container:name=Work&url=$encoded_url"
+    firefox $uri_handler
 end
 
 function unmeta
