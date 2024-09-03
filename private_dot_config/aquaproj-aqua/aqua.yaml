@@ -56,5 +56,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.6
     registry: local
-  - name: superfly/flyctl@v0.2.124
+  - name: superfly/flyctl@v0.2.125
     registry: local
