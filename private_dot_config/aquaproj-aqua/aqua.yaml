@@ -30,7 +30,7 @@ packages:
   - name: twpayne/chezmoi@v2.52.1
   - name: kubernetes/kubectl@v1.31.0
   - name: helm/helm@v3.15.4
-  - name: aws/aws-cli@2.17.45
+  - name: aws/aws-cli@2.17.46
   - name: golang/tools/goimports@v0.24.0
   - name: golangci/golangci-lint@v1.60.3
   - name: hashicorp/terraform@v1.9.5
