@@ -5,14 +5,14 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.227.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.229.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
 packages:
   - name: sharkdp/bat@v0.24.0
   - name: direnv/direnv@v2.34.0
-  - name: sigstore/cosign@v2.4.0
+  - name: sigstore/cosign@v2.4.1
   - name: google/go-containerregistry@v0.20.2
   - name: sbstp/kubie@v0.24.0
   - name: jqlang/jq@jq-1.7.1
@@ -22,31 +22,31 @@ packages:
   - name: int128/kubelogin@v1.30.1
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.3
-  - name: eza-community/eza@v0.20.0
+  - name: eza-community/eza@v0.20.1
   - name: stern/stern@v1.30.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.20.1
-  - name: golang/go@go1.23.1
+  - name: golang/go@go1.23.2
   - name: twpayne/chezmoi@v2.52.3
   - name: kubernetes/kubectl@v1.31.1
   - name: helm/helm@v3.16.1
-  - name: aws/aws-cli@2.17.61
-  - name: golang/tools/goimports@v0.25.0
+  - name: aws/aws-cli@2.18.0
+  - name: golang/tools/goimports@v0.26.0
   - name: golangci/golangci-lint@v1.61.0
-  - name: hashicorp/terraform@v1.9.6
+  - name: hashicorp/terraform@v1.9.7
   - name: wakatime/wakatime-cli@v1.102.1
   - name: topgrade-rs/topgrade@v15.0.0
-  - name: cilium/cilium-cli@v0.16.18
+  - name: cilium/cilium-cli@v0.16.19
   - name: golang/vuln/govulncheck@v1.1.3
   - name: terraform-docs/terraform-docs@v0.19.0
-  - name: getsops/sops@v3.9.0
+  - name: getsops/sops@v3.9.1
   - name: FiloSottile/age@v1.2.0
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.8.9
   - name: nodejs/node@v22.9.0
   - name: moul/assh@v2.16.0
     registry: local
-  - name: pete911/certinfo@v1.0.23
+  - name: pete911/certinfo@v1.0.24
     registry: local
   - name: docker/docker-credential-helpers@v0.8.2
     registry: local
@@ -56,5 +56,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.6
     registry: local
-  - name: superfly/flyctl@v0.3.12
+  - name: superfly/flyctl@v0.3.15
     registry: local
