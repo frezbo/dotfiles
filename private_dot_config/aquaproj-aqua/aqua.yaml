@@ -43,7 +43,7 @@ packages:
   - name: FiloSottile/age@v1.2.0
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.0
-  - name: nodejs/node@v22.9.0
+  - name: nodejs/node@v23.0.0
   - name: moul/assh@v2.16.0
     registry: local
   - name: pete911/certinfo@v1.0.24
