@@ -5,8 +5,8 @@ function set_win_title
 end
 
 # aqua
-export AQUA_GLOBAL_CONFIG="/home/frezbo/.config/aquaproj-aqua/aqua.yaml"
-export AQUA_POLICY_CONFIG="/home/frezbo/.config/aquaproj-aqua/aqua-policy.yaml"
+export AQUA_CONFIG="/home/frezbo/.local/share/chezmoi/private_dot_config/aquaproj-aqua/aqua.yaml"
+export AQUA_POLICY_CONFIG="/home/frezbo/.local/share/chezmoi/private_dot_config/aquaproj-aqua/aqua-policy.yaml"
 export AQUA_LOG_COLOR="always"
 export AQUA_PROGRESS_BAR="true"
 
