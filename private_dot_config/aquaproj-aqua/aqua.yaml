@@ -19,7 +19,7 @@ packages:
   - name: siderolabs/talos@v1.8.2
   - name: junegunn/fzf@v0.56.0
   - name: BurntSushi/ripgrep@14.1.1
-  - name: int128/kubelogin@v1.30.1
+  - name: int128/kubelogin@v1.31.0
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.3
   - name: eza-community/eza@v0.20.6
