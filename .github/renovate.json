@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         ":dependencyDashboard",
         ":gitSignOff",
         ":semanticCommitScopeDisabled",
@@ -12,14 +12,11 @@
     "prConcurrentLimit": 0,
     "branchConcurrentLimit": 0,
     "enabledManagers": [
-        "regex"
+        "custom.regex"
     ],
     "packageRules": [
         {
-            "matchPackagePatterns": [
-                "*"
-            ],
-	    "matchUpdateTypes": [
+            "matchUpdateTypes": [
                 "major",
                 "minor",
                 "patch",
@@ -31,7 +28,10 @@
                 "bump",
                 "replacement"
             ],
-            "groupName": "releases"
+            "groupName": "releases",
+            "matchPackageNames": [
+                "*"
+            ]
         }
     ]
 }
