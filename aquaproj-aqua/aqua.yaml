@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.254.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.255.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -30,11 +30,11 @@ packages:
   - name: twpayne/chezmoi@v2.54.0
   - name: kubernetes/kubectl@v1.31.2
   - name: helm/helm@v3.16.3
-  - name: aws/aws-cli@2.21.3
+  - name: aws/aws-cli@2.22.0
   - name: golang/tools/goimports@v0.27.0
   - name: golangci/golangci-lint@v1.62.0
   - name: hashicorp/terraform@v1.9.8
-  - name: wakatime/wakatime-cli@v1.104.0
+  - name: wakatime/wakatime-cli@v1.105.0
   - name: topgrade-rs/topgrade@v16.0.1
   - name: cilium/cilium-cli@v0.16.20
   - name: golang/vuln/govulncheck@v1.1.3
@@ -56,5 +56,5 @@ packages:
     registry: local
   - name: github.com/siderolabs/deep-copy@v0.5.6
     registry: local
-  - name: superfly/flyctl@v0.3.37
+  - name: superfly/flyctl@v0.3.38
     registry: local
