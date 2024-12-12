@@ -29,11 +29,6 @@ packages:
     asset: "k8s-ctx-import-{{ .OS }}-{{ .Arch }}.tar.gz"
     description: An utility to merge kubernetes contexts to a single kubeconfig
   - type: github_release
-    repo_owner: itaysk
-    repo_name: kubectl-neat
-    asset: "kubectl-neat_{{ .OS }}_{{ .Arch }}.tar.gz"
-    description: Clean up Kubernetes yaml and json output to make it readable
-  - type: github_release
     repo_owner: pulumi
     repo_name: pulumictl
     asset: "pulumictl-{{ .Version }}-{{ .OS }}-{{ .Arch }}.tar.gz"
