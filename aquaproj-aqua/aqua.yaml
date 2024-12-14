@@ -16,7 +16,7 @@ packages:
   - name: google/go-containerregistry@v0.20.2
   - name: sbstp/kubie@v0.24.0
   - name: jqlang/jq@jq-1.7.1
-  - name: siderolabs/talos@v1.8.3
+  - name: siderolabs/talos@v1.8.4
   - name: junegunn/fzf@v0.56.3
   - name: BurntSushi/ripgrep@14.1.1
   - name: int128/kubelogin@v1.31.0
@@ -30,7 +30,7 @@ packages:
   - name: twpayne/chezmoi@v2.55.0
   - name: kubernetes/kubectl@v1.32.0
   - name: helm/helm@v3.16.3
-  - name: aws/aws-cli@2.22.16
+  - name: aws/aws-cli@2.22.17
   - name: golang/tools/goimports@v0.28.0
   - name: golangci/golangci-lint@v1.62.2
   - name: hashicorp/terraform@v1.10.2

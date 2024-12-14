@@ -7,13 +7,8 @@
         ":semanticCommitScopeDisabled",
         "github>aquaproj/aqua-renovate-config#2.6.0"
     ],
+    "separateMajorMinor": false,
     "prHeader": "Update Request | Renovate Bot",
-    "prHourlyLimit": 0,
-    "prConcurrentLimit": 0,
-    "branchConcurrentLimit": 0,
-    "enabledManagers": [
-        "custom.regex"
-    ],
     "packageRules": [
         {
             "matchUpdateTypes": [
@@ -21,17 +16,9 @@
                 "minor",
                 "patch",
                 "pin",
-                "pinDigest",
-                "digest",
-                "lockFileMaintenance",
-                "rollback",
-                "bump",
-                "replacement"
+                "digest"
             ],
-            "groupName": "releases",
-            "matchPackageNames": [
-                "*"
-            ]
+            "groupName": "releases"
         }
     ]
 }
