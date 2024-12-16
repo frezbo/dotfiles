@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.275.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.276.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -17,7 +17,7 @@ packages:
   - name: sbstp/kubie@v0.24.0
   - name: jqlang/jq@jq-1.7.1
   - name: siderolabs/talos@v1.8.4
-  - name: junegunn/fzf@v0.56.3
+  - name: junegunn/fzf@v0.57.0
   - name: BurntSushi/ripgrep@14.1.1
   - name: int128/kubelogin@v1.31.0
   - name: koalaman/shellcheck@v0.10.0
@@ -27,7 +27,7 @@ packages:
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.21.1
   - name: golang/go@go1.23.4
-  - name: twpayne/chezmoi@v2.55.0
+  - name: twpayne/chezmoi@v2.56.0
   - name: kubernetes/kubectl@v1.32.0
   - name: helm/helm@v3.16.3
   - name: aws/aws-cli@2.22.17
