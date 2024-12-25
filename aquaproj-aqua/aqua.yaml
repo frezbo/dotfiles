@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.283.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.284.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -49,7 +49,7 @@ packages:
   - name: lima-vm/lima@v1.0.2
   - name: moul/assh@v2.16.0
     registry: local
-  - name: pete911/certinfo@v1.0.29
+  - name: pete911/certinfo@v1.0.30
     registry: local
   - name: docker/docker-credential-helpers@v0.8.2
     registry: local
