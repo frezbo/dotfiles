@@ -2,6 +2,7 @@
 WantedBy=default.target
 
 [Unit]
+Wants=network-online.target
 After=network-online.target
 
 [Container]
