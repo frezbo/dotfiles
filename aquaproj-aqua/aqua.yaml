@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.291.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.292.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -34,7 +34,7 @@ packages:
   - name: golang/tools/goimports@v0.28.0
   - name: golangci/golangci-lint@v1.63.4
   - name: hashicorp/terraform@v1.10.3
-  - name: wakatime/wakatime-cli@v1.107.0
+  - name: wakatime/wakatime-cli@v1.110.0
   - name: topgrade-rs/topgrade@v16.0.2
   - name: cilium/cilium-cli@v0.16.22
   - name: golang/vuln/govulncheck@v1.1.3
