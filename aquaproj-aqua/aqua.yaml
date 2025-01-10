@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.293.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.294.1 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -22,7 +22,7 @@ packages:
   - name: int128/kubelogin@v1.31.1
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.44.6
-  - name: eza-community/eza@v0.20.15
+  - name: eza-community/eza@v0.20.16
   - name: stern/stern@v1.31.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.21.1
@@ -30,7 +30,7 @@ packages:
   - name: twpayne/chezmoi@v2.57.0
   - name: kubernetes/kubectl@v1.32.0
   - name: helm/helm@v3.16.4
-  - name: aws/aws-cli@2.22.30
+  - name: aws/aws-cli@2.22.32
   - name: golang/tools/goimports@v0.29.0
   - name: golangci/golangci-lint@v1.63.4
   - name: hashicorp/terraform@v1.10.4
@@ -44,12 +44,12 @@ packages:
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.1
   - name: nodejs/node@v23.6.0
-  - name: superfly/flyctl@v0.3.60
+  - name: superfly/flyctl@v0.3.61
   - name: itaysk/kubectl-neat@v2.0.4
   - name: lima-vm/lima@v1.0.3
   - name: moul/assh@v2.16.0
     registry: local
-  - name: pete911/certinfo@v1.0.30
+  - name: pete911/certinfo@v1.0.31
     registry: local
   - name: docker/docker-credential-helpers@v0.8.2
     registry: local
