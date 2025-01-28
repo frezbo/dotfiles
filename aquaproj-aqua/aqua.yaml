@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.300.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.301.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -30,7 +30,7 @@ packages:
   - name: twpayne/chezmoi@v2.58.0
   - name: kubernetes/kubectl@v1.32.1
   - name: helm/helm@v3.17.0
-  - name: aws/aws-cli@2.23.6
+  - name: aws/aws-cli@2.23.7
   - name: golang/tools/goimports@v0.29.0
   - name: golangci/golangci-lint@v1.63.4
   - name: hashicorp/terraform@v1.10.5
@@ -39,12 +39,12 @@ packages:
   - name: cilium/cilium-cli@v0.16.23
   - name: golang/vuln/govulncheck@v1.1.4
   - name: terraform-docs/terraform-docs@v0.19.0
-  - name: getsops/sops@v3.9.3
+  - name: getsops/sops@v3.9.4
   - name: FiloSottile/age@v1.2.1
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.1
   - name: nodejs/node@v23.6.1
-  - name: superfly/flyctl@v0.3.68
+  - name: superfly/flyctl@v0.3.69
   - name: itaysk/kubectl-neat@v2.0.4
   - name: lima-vm/lima@v1.0.4
   - name: reproducible-containers/diffoci@v0.1.5
