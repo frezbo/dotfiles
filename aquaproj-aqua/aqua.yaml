@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.302.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.306.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -17,12 +17,12 @@ packages:
   - name: sbstp/kubie@v0.24.1
   - name: jqlang/jq@jq-1.7.1
   - name: siderolabs/talos@v1.9.3
-  - name: junegunn/fzf@v0.58.0
+  - name: junegunn/fzf@v0.59.0
   - name: BurntSushi/ripgrep@14.1.1
-  - name: int128/kubelogin@v1.32.1
+  - name: int128/kubelogin@v1.32.2
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.45.1
-  - name: eza-community/eza@v0.20.18
+  - name: eza-community/eza@v0.20.19
   - name: stern/stern@v1.32.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.22.1
@@ -30,21 +30,21 @@ packages:
   - name: twpayne/chezmoi@v2.59.0
   - name: kubernetes/kubectl@v1.32.1
   - name: helm/helm@v3.17.0
-  - name: aws/aws-cli@2.23.8
+  - name: aws/aws-cli@2.23.12
   - name: golang/tools/goimports@v0.29.0
   - name: golangci/golangci-lint@v1.63.4
   - name: hashicorp/terraform@v1.10.5
   - name: wakatime/wakatime-cli@v1.112.1
   - name: topgrade-rs/topgrade@v16.0.2
-  - name: cilium/cilium-cli@v0.16.23
+  - name: cilium/cilium-cli@v0.16.24
   - name: golang/vuln/govulncheck@v1.1.4
   - name: terraform-docs/terraform-docs@v0.19.0
   - name: getsops/sops@v3.9.4
   - name: FiloSottile/age@v1.2.1
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.1
-  - name: nodejs/node@v23.6.1
-  - name: superfly/flyctl@v0.3.70
+  - name: nodejs/node@v23.7.0
+  - name: superfly/flyctl@v0.3.73
   - name: itaysk/kubectl-neat@v2.0.4
   - name: lima-vm/lima@v1.0.4
   - name: reproducible-containers/diffoci@v0.1.5
