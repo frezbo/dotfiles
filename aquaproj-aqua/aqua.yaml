@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.306.1 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.308.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -22,15 +22,15 @@ packages:
   - name: int128/kubelogin@v1.32.2
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.45.1
-  - name: eza-community/eza@v0.20.19
+  - name: eza-community/eza@v0.20.20
   - name: stern/stern@v1.32.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.22.1
   - name: golang/go@go1.23.6
-  - name: twpayne/chezmoi@v2.59.0
+  - name: twpayne/chezmoi@v2.59.1
   - name: kubernetes/kubectl@v1.32.1
   - name: helm/helm@v3.17.0
-  - name: aws/aws-cli@2.23.13
+  - name: aws/aws-cli@2.24.0
   - name: golang/tools/goimports@v0.29.0
   - name: golangci/golangci-lint@v1.63.4
   - name: hashicorp/terraform@v1.10.5
@@ -44,9 +44,9 @@ packages:
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.1
   - name: nodejs/node@v23.7.0
-  - name: superfly/flyctl@v0.3.74
+  - name: superfly/flyctl@v0.3.75
   - name: itaysk/kubectl-neat@v2.0.4
-  - name: lima-vm/lima@v1.0.4
+  - name: lima-vm/lima@v1.0.5
   - name: reproducible-containers/diffoci@v0.1.5
   - name: moul/assh@v2.16.0
     registry: local
