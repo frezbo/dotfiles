@@ -1,0 +1,10 @@
+[Unit]
+Description=Registry Docker.io socket
+Wants=network-online.target
+After=network-online.target
+
+[Socket]
+ListenStream=5000
+
+[Install]
+WantedBy=sockets.target

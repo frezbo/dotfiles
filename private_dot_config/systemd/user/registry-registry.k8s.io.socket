@@ -1,0 +1,10 @@
+[Unit]
+Description=Registry Registry.k8s.io socket
+Wants=network-online.target
+After=network-online.target
+
+[Socket]
+ListenStream=5001
+
+[Install]
+WantedBy=sockets.target

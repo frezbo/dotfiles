@@ -1,14 +1,15 @@
-[Install]
-WantedBy=default.target
-
 [Unit]
-Wants=network-online.target
-After=network-online.target
+Description=Registry Registry.k8s.io
+Requires=registry-registry.k8s.io.socket
+After=registry-registry.k8s.io.socket
 
 [Container]
-Image=docker.io/registry:2
-AutoUpdate=local
+Image=ghcr.io/distribution/distribution:edge
+AutoUpdate=registry
 ContainerName=registry-registry.k8s.io
 Volume=registry-registry.k8s.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://registry.k8s.io
-PublishPort=5001:5000
+PublishPort=5000
+
+[Install]
+WantedBy=default.target

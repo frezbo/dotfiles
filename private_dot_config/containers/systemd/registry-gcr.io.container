@@ -1,14 +1,19 @@
-[Install]
-WantedBy=default.target
+[Unit]
+Description=Registry GCR.io
+Requires=registry-gcr.io.socket
+After=registry-gcr.io.socket
 
 [Unit]
 Wants=network-online.target
 After=network-online.target
 
 [Container]
-Image=docker.io/registry:2
-AutoUpdate=local
+Image=ghcr.io/distribution/distribution:edge
+AutoUpdate=registry
 ContainerName=registry-gcr.io
 Volume=registry-gcr.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://gcr.io
-PublishPort=5002:5000
+PublishPort=5000
+
+[Install]
+WantedBy=default.target

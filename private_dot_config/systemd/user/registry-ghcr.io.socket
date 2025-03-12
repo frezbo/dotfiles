@@ -1,0 +1,10 @@
+[Unit]
+Description=Registry GHCR.io socket
+Wants=network-online.target
+After=network-online.target
+
+[Socket]
+ListenStream=5003
+
+[Install]
+WantedBy=sockets.target

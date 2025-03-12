@@ -1,0 +1,10 @@
+[Unit]
+Description=Registry Local socket
+Wants=network-online.target
+After=network-online.target
+
+[Socket]
+ListenStream=5010
+
+[Install]
+WantedBy=sockets.target

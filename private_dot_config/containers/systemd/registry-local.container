@@ -1,13 +1,15 @@
-[Install]
-WantedBy=default.target
-
 [Unit]
-Wants=network-online.target
-After=network-online.target
+Description=Registry Local
+Requires=registry-local.socket
+After=registry-local.socket
 
 [Container]
-Image=docker.io/registry:2
-AutoUpdate=local
+Image=ghcr.io/distribution/distribution:edge
+AutoUpdate=registry
 ContainerName=registry-local
 Volume=registry-local.volume:/var/lib/registry
-PublishPort=5010:5000
+Network=none
+PublishPort=5000
+
+[Install]
+WantedBy=default.target
