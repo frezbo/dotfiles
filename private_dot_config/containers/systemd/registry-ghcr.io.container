@@ -9,7 +9,6 @@ AutoUpdate=registry
 ContainerName=registry-ghcr.io
 Volume=registry-ghcr.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://ghcr.io
-PublishPort=5000
 
 [Install]
 WantedBy=default.target

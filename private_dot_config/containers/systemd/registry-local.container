@@ -9,7 +9,6 @@ AutoUpdate=registry
 ContainerName=registry-local
 Volume=registry-local.volume:/var/lib/registry
 Network=none
-PublishPort=5000
 
 [Install]
 WantedBy=default.target

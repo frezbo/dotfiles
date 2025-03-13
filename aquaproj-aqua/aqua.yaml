@@ -14,15 +14,15 @@ packages:
   - name: direnv/direnv@v2.35.0
   - name: sigstore/cosign@v2.4.3
   - name: google/go-containerregistry@v0.20.3
-  - name: sbstp/kubie@v0.25.0
+  - name: sbstp/kubie@v0.25.1
   - name: jqlang/jq@jq-1.7.1
-  - name: siderolabs/talos@v1.9.4
+  - name: siderolabs/talos@v1.9.5
   - name: junegunn/fzf@v0.60.3
   - name: BurntSushi/ripgrep@14.1.1
   - name: int128/kubelogin@v1.32.2
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.45.1
-  - name: eza-community/eza@v0.20.23
+  - name: eza-community/eza@v0.20.24
   - name: stern/stern@v1.32.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.22.1

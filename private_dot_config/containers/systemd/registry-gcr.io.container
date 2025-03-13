@@ -13,7 +13,6 @@ AutoUpdate=registry
 ContainerName=registry-gcr.io
 Volume=registry-gcr.io.volume:/var/lib/registry
 Environment=REGISTRY_PROXY_REMOTEURL=https://gcr.io
-PublishPort=5000
 
 [Install]
 WantedBy=default.target
