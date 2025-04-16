@@ -23,10 +23,13 @@ actions:
       - tailscale
       - code
       - zstd
-      - @virtualization
       - kdepim-addons
+      - "@virtualization"
       - pax-utils
       - diffoscope
       #- ffmpeg
       #- socat
       #- swtpm
+      - pam-u2f
+      - pamu2fcfg
+      - qpdf
