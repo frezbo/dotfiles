@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.346.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.347.2 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -22,15 +22,15 @@ packages:
   - name: int128/kubelogin@v1.32.3
   - name: koalaman/shellcheck@v0.10.0
   - name: mikefarah/yq@v4.45.1
-  - name: eza-community/eza@v0.21.0
+  - name: eza-community/eza@v0.21.1
   - name: stern/stern@v1.32.0
   - name: FiloSottile/mkcert@v1.4.4
   - name: starship/starship@v1.22.1
   - name: golang/go@go1.24.2
-  - name: twpayne/chezmoi@v2.62.1
+  - name: twpayne/chezmoi@v2.62.2
   - name: kubernetes/kubectl@v1.32.3
   - name: helm/helm@v3.17.3
-  - name: aws/aws-cli@2.26.2
+  - name: aws/aws-cli@2.26.5
   - name: golang/tools/goimports@v0.32.0
   - name: golangci/golangci-lint@v2.1.2
   - name: hashicorp/terraform@v1.11.4
@@ -44,7 +44,7 @@ packages:
   - name: 99designs/aws-vault@v7.2.0
   - name: comtrya/comtrya@v0.9.1
   - name: nodejs/node@v23.11.0
-  - name: superfly/flyctl@v0.3.105
+  - name: superfly/flyctl@v0.3.106
   - name: itaysk/kubectl-neat@v2.0.4
   - name: lima-vm/lima@v1.0.7
   - name: reproducible-containers/diffoci@v0.1.6
