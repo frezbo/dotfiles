@@ -5,7 +5,7 @@ checksum:
   enabled: true
 registries:
 - type: standard
-  ref: v4.347.2 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.349.0 # renovate: depName=aquaproj/aqua-registry
 - type: local
   name: local
   path: registry.yaml
@@ -17,7 +17,7 @@ packages:
   - name: sbstp/kubie@v0.25.2
   - name: jqlang/jq@jq-1.7.1
   - name: siderolabs/talos@v1.9.5
-  - name: junegunn/fzf@v0.61.1
+  - name: junegunn/fzf@v0.61.2
   - name: BurntSushi/ripgrep@14.1.1
   - name: int128/kubelogin@v1.32.3
   - name: koalaman/shellcheck@v0.10.0
