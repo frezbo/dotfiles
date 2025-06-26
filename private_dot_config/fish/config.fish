@@ -5,6 +5,7 @@ end
 fish_add_path (brew --prefix openssh)/bin
 fish_add_path (brew --prefix make)/libexec/gnubin
 fish_add_path (brew --prefix gnu-sed)/libexec/gnubin
+fish_add_path (brew --prefix jq)/bin
 
 starship init fish | source
 
