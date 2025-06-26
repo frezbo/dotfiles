@@ -3,6 +3,8 @@ if status is-interactive
 end
 
 fish_add_path (brew --prefix openssh)/bin
+fish_add_path (brew --prefix make)/libexec/gnubin
+fish_add_path (brew --prefix gnu-sed)/libexec/gnubin
 
 starship init fish | source
 
