@@ -1,7 +1,0 @@
-# Golang
-PATH="${PATH}:/home/frezbo/work/golang/bin"
-
-# aqua-proj
-PATH="/home/frezbo/.local/share/aquaproj-aqua/bin:${PATH}"
-
-export PATH

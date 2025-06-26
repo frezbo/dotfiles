@@ -1,41 +1,40 @@
 # dotfiles
 
-Use chezmoi, renovate and aqua to keep things updated
+Use Brewfile, topgrade to keep everything in sync
 
 ## Setup
 
-Start by installing `chezmoi` and `comtrya` binary somewhere in the `PATH` and also the `git` package.
+Setup Brew on MacOS and run these commands:
 
-Then run:
-
-`chezmoi init frezbo`
+```bash
+brew install chezmoi gpg pinentry-mac openssh
+export PATH=$(brew --prefix openssh)/bin:$PATH
+```
 
 Then plug in the YubiKey and run `gpg --card-status` and retrieve the key via `gpg --card-edit` followed by `fetch`.
 
-Then retrieve the resident ssh keys by running `ssh-keygen -K`, move the generated files to `~/.ssh`.
-
-Then run `chezmoi cd` followed by
+Then retrieve the resident ssh keys by running
 
 ```bash
+ssh-keygen -K
+mv id_ed25519_sk.pub ~/.ssh/git.pub
+mv id_ed25519_sk ~/.ssh/git
+```
+
+We can now proceed to setup rest of the dotfiles.
+
+```bash
+chezmoi init frezbo
 chezmoi apply ~/.config/chezmoi
 chezmoi apply ~/.config/chezmoi/chezmoi.toml
+chezmoi apply ~/.gnupg
+chezmoi apply ~/.gnupg/gpg-agent.conf
 chezmoi apply
 ```
 
 Also run `git config remote.origin.pushurl git@github.com:frezbo/dotfiles.git` so we use ssh for pushes.
 
 This should setup all the required dot files.
-
-Now we can proceed to installing `aqua` binary.
-Change into `comtrya` directory and run `comtrya apply -m dotfiles`
-
-Now log out and login so that new dotfiles gets processed.
-
-We can now proceed to installing other packages.
-
-Run `chezmoi cd` and then cd into comtrya directory and run:
-
-`comtrya apply` to install all required packages.
 
 At last run to set generate the ssh config file.
 

@@ -1,13 +1,6 @@
-[misc]
-# Disable specific steps - same options as the command line flag
-disable = ["gcloud"]
-
 # Ignore failures for these steps
 # ignore failure updating local development images
 ignore_failures = ["containers"]
 
 # Cleanup temporary or old files
 cleanup = true
-
-# Skip sending a notification at the end of a run
-skip_notify = true

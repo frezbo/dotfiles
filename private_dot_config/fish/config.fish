@@ -1,19 +1,9 @@
-# use starship prompt
-
-function set_win_title
-    echo -ne "\033]0; $USER@$HOSTNAME:$PWD//$HOME/\~} \007"
+if status is-interactive
+    # Commands to run in interactive sessions can go here
 end
 
-# aqua
-export AQUA_CONFIG="/home/frezbo/.local/share/chezmoi/aquaproj-aqua/aqua.yaml"
-export AQUA_POLICY_CONFIG="/home/frezbo/.local/share/chezmoi/aquaproj-aqua/aqua-policy.yaml"
-export AQUA_LOG_COLOR="always"
-export AQUA_PROGRESS_BAR="true"
+fish_add_path (brew --prefix openssh)/bin
 
-# disable topgrade self update since it's managed by aqua
-export TOPGRADE_NO_SELF_UPGRADE=""
-
-set starship_precmd_user_func "set_win_title"
 starship init fish | source
 
 # assh
@@ -25,14 +15,8 @@ alias kn="kubie ns"
 
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
-# fzf
-fzf --fish | source
-
 # set default EDITOR
 set -x EDITOR "vim"
-
-# Golang
-set -x GOPATH "/home/frezbo/work/golang"
 
 # direnv
 direnv hook fish | source
@@ -69,16 +53,6 @@ end
 
 function unmeta
   exiftool -all= -overwrite_original "$argv"
-end
-
-function device-shutdown
-  switch (count $argv)
-    case '1'
-      udisksctl power-off -b "$argv[1]"
-    case '*'
-      echo "### Usage: device-shutdown <device name>"
-      return 1
-  end
 end
 
 function qq

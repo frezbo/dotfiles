@@ -3,10 +3,6 @@ add_newline = false
 [cmd_duration]
 show_milliseconds = true
 
-[directory.substitutions]
-"~/work/golang/src/github.com/frezbo" = "personal"
-"~/work/golang" = "gopath"
-
 [git_metrics]
 disabled = false
 
@@ -28,7 +24,3 @@ disabled = false
 
 [status]
 disabled = false
-
-[gcloud]
-symbol = "️🇬️  "
-format = 'on [$symbol(\($project\)\[$region\])]($style) '
