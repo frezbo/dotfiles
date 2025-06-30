@@ -1,3 +1,4 @@
+[misc]
 # Ignore failures for these steps
 # ignore failure updating local development images
 ignore_failures = ["containers"]
