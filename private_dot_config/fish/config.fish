@@ -89,6 +89,8 @@ alias gcm='git commit'
 alias grep="rg"
 alias ls="eza"
 alias cat="bat"
+alias vim="nvim"
+alias vi="nvim"
 
 # talosctl bash completion
 talosctl completion fish | source
