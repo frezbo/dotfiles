@@ -1,6 +1,6 @@
 provider_installation {
   dev_overrides {
-    "siderolabs/talos" = "/home/frezbo/work/golang/bin"
+    "siderolabs/talos" = "/Users/archetype/go/bin"
   }
 
   direct {}
