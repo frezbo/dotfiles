@@ -76,9 +76,6 @@ function qq
   tail -100f -- "$logpath"
 end
 
-alias pbcopy='xclip -selection clipboard'
-alias pbcopyi="xclip -selection clipboard -t image/png -i"
-alias pbpaste='xclip -selection clipboard -o'
 alias p='pushd .'
 alias g='popd'
 alias d='dirs'
