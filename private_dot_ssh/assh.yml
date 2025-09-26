@@ -1,0 +1,29 @@
+hosts:
+  github.com:
+    User: git
+    IdentityFile: ~/.ssh/git
+  gitlab.com:
+    User: git
+    IdentityFile: ~/.ssh/git
+  io:
+    User: frezbo
+    Hostname: 192.168.15.1
+    IdentityFile: ~/.ssh/git
+  "*.frezbo.lan":
+    User: frezbo
+    IdentityFile: ~/.ssh/unifi.pub
+  orb:
+    Hostname: 127.0.0.1
+    Port: 32222
+    User: default
+    IdentityFile: ~/.orbstack/ssh/id_ed25519
+    IdentitiesOnly: yes
+    UserKnownHostsFile: ~/.orbstack/ssh/known_hosts
+    ProxyCommand: "'/Applications/OrbStack.app/Contents/Frameworks/OrbStack Helper.app/Contents/MacOS/OrbStack Helper' ssh-proxy-fdpass 501"
+    ProxyUseFdPass: yes
+
+
+defaults:
+  IdentitiesOnly: yes
+  IdentityAgent: '"~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"'
+
