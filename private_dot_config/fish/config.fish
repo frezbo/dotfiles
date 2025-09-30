@@ -91,3 +91,6 @@ alias vi="nvim"
 
 # talosctl bash completion
 talosctl completion fish | source
+
+# op plugins
+source ~/.op/plugins.sh
