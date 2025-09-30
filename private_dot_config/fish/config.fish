@@ -93,4 +93,4 @@ alias vi="nvim"
 talosctl completion fish | source
 
 # op plugins
-source ~/.op/plugins.sh
+source ~/.config/op/plugins.sh
