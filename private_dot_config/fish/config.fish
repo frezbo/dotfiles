@@ -84,14 +84,11 @@ alias gc='git clone'
 alias gs='git status'
 alias gd='git diff'
 alias gcm='git commit'
-alias grep="rg"
-alias ls="eza"
-alias cat="bat"
 alias vim="nvim"
 alias vi="nvim"
 
 # talosctl bash completion
 talosctl completion fish | source
 
-# op plugins
+# 1password plugins
 source ~/.config/op/plugins.sh
