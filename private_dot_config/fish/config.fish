@@ -7,6 +7,7 @@ fish_add_path (brew --prefix make)/libexec/gnubin
 fish_add_path (brew --prefix gnu-sed)/libexec/gnubin
 fish_add_path (brew --prefix jq)/bin
 fish_add_path (brew --prefix findutils)/libexec/gnubin
+fish_add_path (brew --prefix coreutils)/libexec/gnubin
 
 starship init fish | source
 
@@ -20,26 +21,25 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # set default EDITOR
-set -x EDITOR "vim"
+set -x EDITOR vim
 
 # direnv
 direnv hook fish | source
 
 # function to merge kubeconfig
 function kmerge
-  switch (count $argv)
-    case '2'
-      if ! test -e $argv[1]
-        echo "file $argv[1] does not exist"
-        return 1
-      end
-      k8s-ctx-import -name "$argv[2]" \
-        -set-current-context=false \
-        < "$argv[1]"
-    case '*'
-      echo "### Usage: kmerge <path to kubeconfig> <context name>"
-      return 1
-  end
+    switch (count $argv)
+        case 2
+            if ! test -e $argv[1]
+                echo "file $argv[1] does not exist"
+                return 1
+            end
+            k8s-ctx-import -name "$argv[2]" \
+                -set-current-context=false <"$argv[1]"
+        case '*'
+            echo "### Usage: kmerge <path to kubeconfig> <context name>"
+            return 1
+    end
 end
 
 # aws-vault helpers
@@ -56,25 +56,25 @@ function avl
 end
 
 function unmeta
-  exiftool -all= -overwrite_original "$argv"
+    exiftool -all= -overwrite_original "$argv"
 end
 
 function qq
-  clear
+    clear
 
-  set -l logpath "$TMPDIR/q"
+    set -l logpath "$TMPDIR/q"
 
-  if test -z "$TMPDIR"
-      set logpath "/tmp/q"
-  end
+    if test -z "$TMPDIR"
+        set logpath /tmp/q
+    end
 
-  echo $logpath
+    echo $logpath
 
-  if not test -f "$logpath"
-      echo 'Q LOG' > "$logpath"
-  end
+    if not test -f "$logpath"
+        echo 'Q LOG' >"$logpath"
+    end
 
-  tail -100f -- "$logpath"
+    tail -100f -- "$logpath"
 end
 
 alias p='pushd .'
@@ -84,8 +84,8 @@ alias gc='git clone'
 alias gs='git status'
 alias gd='git diff'
 alias gcm='git commit'
-alias vim="nvim"
-alias vi="nvim"
+alias vim="hx"
+alias vi="hx"
 
 # talosctl bash completion
 talosctl completion fish | source
