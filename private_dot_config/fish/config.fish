@@ -21,7 +21,7 @@ alias kn="kubie ns"
 alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # set default EDITOR
-set -x EDITOR vim
+set -x EDITOR hx
 
 # direnv
 direnv hook fish | source
