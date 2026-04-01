@@ -43,6 +43,10 @@ function kmerge
 end
 
 # aws-vault helpers
+set -x AWS_VAULT_BACKEND op-desktop
+set -x AWS_VAULT_OP_VAULT_ID 4ltkousa43jjeqbg6qhwnfwsxe
+set -x AWS_VAULT_OP_DESKTOP_ACCOUNT_ID Talos
+
 function ave
     aws-vault exec --duration 12h $argv fish
 end

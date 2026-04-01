@@ -1,0 +1,6 @@
+command = "/opt/homebrew/bin/fish"
+theme = "Bright Lights"
+background-opacity = 0.95  
+background-blur = 10       
+font-size = 15
+macos-option-as-alt = true
