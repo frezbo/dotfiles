@@ -8,6 +8,7 @@ fish_add_path (brew --prefix gnu-sed)/libexec/gnubin
 fish_add_path (brew --prefix jq)/bin
 fish_add_path (brew --prefix findutils)/libexec/gnubin
 fish_add_path (brew --prefix coreutils)/libexec/gnubin
+fish_add_path (brew --prefix kubernetes-cli)/bin
 
 starship init fish | source
 
