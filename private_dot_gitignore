@@ -1,3 +1,4 @@
 .envrc
 .state
 .claude
+.claude/settings.local.json
