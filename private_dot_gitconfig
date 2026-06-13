@@ -27,3 +27,6 @@ excludesfile=~/.gitignore
 
 [rerere]
 enabled=true
+
+[fetch]
+prune=true
