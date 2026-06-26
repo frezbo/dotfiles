@@ -2,6 +2,7 @@
 # Ignore failures for these steps
 # ignore failure updating local development images
 ignore_failures = ["containers"]
+assume_yes = true
 
 # Cleanup temporary or old files
 cleanup = true
