@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Auto-bootstrap a fresh Talos git worktree: symlink the gitignored .envrc and
+# .vscode back to the primary worktree and allow direnv. Fires on `git worktree
+# add` (post-checkout runs with CWD = the new worktree). Idempotent + guarded on
+# the talos remote, so harmless in every other repo.
+if git config --get remote.origin.url 2>/dev/null | grep -q 'siderolabs/talos'; then
+  # Primary worktree = first entry of `git worktree list`.
+  primary=$(git worktree list --porcelain | awk '/^worktree /{print $2; exit}')
+  here=$(git rev-parse --show-toplevel)
+
+  if [ "$here" != "$primary" ]; then
+    created_envrc=0
+
+    if [ ! -e "$here/.envrc" ]; then
+      ln -s "$primary/.envrc" "$here/.envrc"
+      created_envrc=1
+    fi
+
+    [ -e "$here/.vscode" ] || ln -s "$primary/.vscode" "$here/.vscode"
+
+    if [ "$created_envrc" = 1 ]; then
+      command -v direnv >/dev/null 2>&1 && (cd "$here" && direnv allow .) || true
+    fi
+  fi
+fi
+
+# Global core.hooksPath disables per-repo hooks; chain to a repo-local one if present.
+# Do not use `git rev-parse --git-path hooks/...` here: it honors core.hooksPath
+# and resolves back to this global hook.
+common_dir=$(git rev-parse --git-common-dir 2>/dev/null || true)
+if [ -n "$common_dir" ]; then
+  local_hook=$common_dir/hooks/post-checkout
+
+  if [ -x "$local_hook" ]; then
+    exec "$local_hook" "$@"
+  fi
+fi

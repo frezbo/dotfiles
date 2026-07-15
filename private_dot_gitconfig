@@ -1,32 +1,36 @@
 [init]
-defaultBranch=main
+    defaultBranch = main
 
 [user]
-name=Noel Georgi
-email=git@frezbo.dev
-signingkey=CC51116A94490FA6FB3C18EB2401FCAE863A06CA
+    name = Noel Georgi
+    email = git@frezbo.dev
+    signingkey = CC51116A94490FA6FB3C18EB2401FCAE863A06CA
 
 [commit]
-gpgSign=true
+    gpgSign = true
 
 [tag]
-gpgSign=true
+    gpgSign = true
 
 [pull]
-rebase=true
+    rebase = true
 
 [push]
-autoSetupRemote=true
-gpgSign=if-asked
+    autoSetupRemote = true
+    gpgSign = if-asked
 
 [rebase]
-autoStash=true
+    autoStash = true
 
 [core]
-excludesfile=~/.gitignore
+    excludesfile = ~/.gitignore
+	hooksPath = ~/.config/git/hooks
 
 [rerere]
-enabled=true
+    enabled = true
 
 [fetch]
-prune=true
+    prune=true
+
+[includeIf "gitdir:~/.letta/"]
+    path = ~/.letta/.gitconfig
