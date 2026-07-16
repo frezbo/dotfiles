@@ -10,6 +10,7 @@ fish_add_path (brew --prefix findutils)/libexec/gnubin
 fish_add_path (brew --prefix coreutils)/libexec/gnubin
 fish_add_path (brew --prefix grep)/libexec/gnubin
 fish_add_path (brew --prefix kubernetes-cli)/bin
+fish_add_path ~/go/bin
 
 starship init fish | source
 
@@ -24,6 +25,9 @@ alias kleen="sed -i /current-context/d ~/.kube/config"
 
 # set default EDITOR
 set -x EDITOR hx
+
+# enable letta mod muscle memory
+set -x MM_REFLECT auto
 
 # direnv
 direnv hook fish | source

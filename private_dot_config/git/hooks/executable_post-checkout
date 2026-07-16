@@ -19,6 +19,7 @@ if git config --get remote.origin.url 2>/dev/null | grep -q 'siderolabs/talos'; 
     fi
 
     [ -e "$here/.vscode" ] || ln -s "$primary/.vscode" "$here/.vscode"
+    [ -e "$here/.zed" ] || ln -s "$primary/.zed" "$here/.zed"
 
     if [ "$created_envrc" = 1 ]; then
       command -v direnv >/dev/null 2>&1 && (cd "$here" && direnv allow .) || true
