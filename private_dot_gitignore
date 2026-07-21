@@ -1,7 +1,5 @@
 .envrc
 .state
-.claude
-.claude/settings.local.json
-CLAUDE.md
+AGENTS.md
 .letta
 .zed
