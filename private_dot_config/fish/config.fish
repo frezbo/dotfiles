@@ -28,6 +28,8 @@ set -x EDITOR hx
 
 # enable letta mod muscle memory
 set -x MM_REFLECT auto
+# disable letta audo updater
+set -x DISABLE_AUTOUPDATER 1
 
 # direnv
 direnv hook fish | source
