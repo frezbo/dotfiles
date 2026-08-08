@@ -1,0 +1,56 @@
+{
+  "agent_servers": {
+    "Letta": {
+      "type": "custom",
+      "command": "npx",
+      "args": ["-y", "@letta-ai/letta-acp"],
+      "env": {
+        "LETTA_ACP_PERMISSION_MODE": "standard",
+        "LETTA_ACP_BACKEND": "local",
+        "LETTA_ACP_MODEL": "chatgpt-plus-pro/gpt-5.6-sol",
+        "LETTA_AGENT_ID": "agent-local-2d9987f2-2182-4b36-81d3-aeed13774b44",
+      },
+    },
+  },
+  "proxy": "",
+  "disable_ai": false,
+  "format_on_save": "on",
+  "toolbar": {
+    "code_actions": true,
+  },
+  "inlay_hints": {
+    "show_background": true,
+    "enabled": true,
+  },
+  "cli_default_open_behavior": "existing_window",
+  "code_lens": "on",
+  "terminal": {
+    "option_as_meta": true,
+    "shell": {
+      "program": "fish",
+    },
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "lsp": {
+    "golangci-lint": {
+      "initialization_options": {
+        "command": [
+          "golangci-lint",
+          "run",
+          "--output.json.path",
+          "stdout",
+          "--show-stats=false",
+          "--output.text.path=",
+        ],
+      },
+    },
+  },
+  "languages": {
+    "Go": {
+      "language_servers": ["gopls", "golangci-lint"],
+    },
+  },
+}
