@@ -24,7 +24,6 @@
 
 [core]
     excludesfile = ~/.gitignore
-	hooksPath = ~/.config/git/hooks
 
 [rerere]
     enabled = true
