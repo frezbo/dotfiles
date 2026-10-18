@@ -33,3 +33,5 @@
 
 [includeIf "gitdir:~/.letta/"]
     path = ~/.letta/.gitconfig
+[gpg]
+	program = /opt/homebrew/bin/touch-to-sign
