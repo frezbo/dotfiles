@@ -103,4 +103,7 @@ alias vi="hx"
 talosctl completion fish | source
 
 # 1password plugins
-source ~/.config/op/plugins.sh
+set -gx OP_PLUGIN_ALIASES_SOURCED 1
+function fly --wraps fly
+    op plugin run -- fly $argv
+end
