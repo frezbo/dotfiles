@@ -11,6 +11,8 @@ fish_add_path (brew --prefix coreutils)/libexec/gnubin
 fish_add_path (brew --prefix grep)/libexec/gnubin
 fish_add_path (brew --prefix kubernetes-cli)/bin
 fish_add_path ~/go/bin
+# must stay ahead of the real claude binary
+fish_add_path ~/.local/share/claude-shim
 
 starship init fish | source
 

@@ -1,0 +1,76 @@
+#!/bin/sh
+# Picks the Claude Code profile: personal (~/.claude) or work (~/.claude-work).
+# Prompts only for interactive launches, so IDEs and scripts never block.
+
+real=
+saved_ifs=$IFS
+IFS=:
+for dir in $PATH; do
+	if [ -x "$dir/claude" ] && [ ! "$dir/claude" -ef "$0" ]; then
+		real=$dir/claude
+		break
+	fi
+done
+IFS=$saved_ifs
+
+if [ -z "$real" ]; then
+	echo 'claude-shim: no claude binary found on PATH' >&2
+	exit 127
+fi
+
+if [ -z "${CLAUDE_PROFILE:-}" ] && [ -n "${CLAUDE_CONFIG_DIR:-}" ]; then
+	exec "$real" "$@"
+fi
+
+case $PWD/ in
+"$HOME"/work/siderolabs/*) profile=work ;;
+*) profile=personal ;;
+esac
+
+interactive=1
+[ -t 0 ] && [ -t 1 ] || interactive=0
+
+case ${1:-} in
+agents | attach | auth | auto-mode | doctor | gateway | import | install | logs | mcp | plugin | plugins | purge | respawn | rm | setup-token | stop | kill | ultrareview | update | upgrade)
+	interactive=0
+	;;
+esac
+
+for arg in "$@"; do
+	case $arg in
+	-p | --print | -v | --version | -h | --help) interactive=0 ;;
+	esac
+done
+
+if [ -n "${CLAUDE_PROFILE:-}" ]; then
+	# Set by an outer launch or by hand; nested claude calls must keep their account.
+	profile=$CLAUDE_PROFILE
+elif [ "$interactive" -eq 1 ]; then
+	while :; do
+		printf 'Claude profile [p]ersonal/[w]ork (Enter = %s): ' "$profile" >&2
+		IFS= read -r reply || break
+		case $reply in
+		'') break ;;
+		p | P | personal)
+			profile=personal
+			break
+			;;
+		w | W | work)
+			profile=work
+			break
+			;;
+		esac
+	done
+fi
+
+case $profile in
+work) export CLAUDE_CONFIG_DIR="$HOME/.claude-work" ;;
+personal) unset CLAUDE_CONFIG_DIR ;;
+*)
+	echo "claude-shim: unknown CLAUDE_PROFILE: $profile" >&2
+	exit 2
+	;;
+esac
+
+export CLAUDE_PROFILE="$profile"
+exec "$real" "$@"
