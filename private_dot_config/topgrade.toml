@@ -4,5 +4,8 @@
 ignore_failures = ["containers"]
 assume_yes = true
 
+# skills under ~/.claude/skills are local, not gh-installed
+disable = ["github_cli_skills"]
+
 # Cleanup temporary or old files
 cleanup = true
